@@ -34,10 +34,19 @@ if response.status_code == 200:
         description_tag = product.find(class_='excerpt')
 
         if name_tag and price_tag and link_tag:
+            # Remove whitespaces from name and description
             name = name_tag.get_text(strip=True)
-            price = price_tag.get_text(strip=True)
+            description = description_tag.get_text(strip=True) if description_tag else "No description available"
+
+            # Extract and validate price
+            price_str = price_tag.get_text(strip=True).replace('lei', '').replace(' ', '')  # Remove currency and spaces
+            try:
+                price = int(price_str)  # Convert to integer; raises ValueError if not valid
+            except ValueError:
+                print(f"Invalid price format for {name}. Skipping this product.")
+                continue  # Skip this product if price is invalid
+
             link = link_tag['href']
-            description = description_tag.get_text(strip=True)
 
             products.append({
                 'name': name,
