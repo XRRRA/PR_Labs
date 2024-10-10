@@ -24,22 +24,32 @@ if response.status_code == 200:
     # Use Beautiful Soup to parse the HTML
     soup = BeautifulSoup(html_content, 'html.parser')
 
-    # Extract product names and prices
+    # Extract product names, prices, and links
     products = []
 
-    # Adjust these selectors based on actual HTML structure
-    for product in soup.find_all(class_='product-wrap'):
+    for product in soup.find_all(class_='col-lg-4 col-6'):
+        link_tag = product.find('a', href=True)
         name_tag = product.find(class_='title')
         price_tag = product.find(class_='price-current')
+        description_tag = product.find(class_='excerpt')
 
-        if name_tag and price_tag:
+        if name_tag and price_tag and link_tag:
             name = name_tag.get_text(strip=True)
             price = price_tag.get_text(strip=True)
-            products.append({'name': name, 'price': price})
+            link = link_tag['href']
+            description = description_tag.get_text(strip=True)
 
-    # Print extracted products
+            products.append({
+                'name': name,
+                'price': price,
+                'link': link,
+                'description': description
+            })
+
+    # Print extracted products with additional data
     for product in products:
-        print(f"Product Name: {product['name']}, Price: {product['price']}")
+        print(
+            f"Product Name: {product['name']}, Price: {product['price']}, Link: {product['link']}, Description: {product['description']}")
 
 else:
     print(f"Failed to retrieve content. Status code: {response.status_code}")
