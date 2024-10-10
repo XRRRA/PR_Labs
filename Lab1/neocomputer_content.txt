@@ -6809,7 +6809,7 @@ ready(function() { // DOM loaded
 
                                             <div class="product-content">
                                                 <div class="product-image">
-                                                    <img alt="Gaming PC NEO 1" title="Gaming PC NEO 1" src="https://neocomputer.md/image/cache/data/Componente%20PC/Cases/Case/Deepcool/Deepcool%20CK500,%20White_1-600x600.jpg" class="image-fluid">
+                                                    <img alt="Gaming PC NEO 1" title="Gaming PC NEO 1" src="https://neocomputer.md/image/cache/webp/data/Componente%20PC/Cases/Case/Deepcool/Deepcool%20CK500,%20White_1-600x600.webp" class="image-fluid">
                                                 </div>
                                                 <div class="description">
                                                     <div class="rating">
@@ -7005,7 +7005,7 @@ ready(function() { // DOM loaded
 
                                             <div class="product-content">
                                                 <div class="product-image">
-                                                    <img alt="Gaming PC NEO 11" title="Gaming PC NEO 11" src="https://neocomputer.md/image/cache/data/Componente%20PC/Cases/Case/Asus/Asus_TUF_Gaming_GT301_Black-600x600.jpg" class="image-fluid">
+                                                    <img alt="Gaming PC NEO 11" title="Gaming PC NEO 11" src="https://neocomputer.md/image/cache/webp/data/Componente%20PC/Cases/Case/Asus/Asus_TUF_Gaming_GT301_Black-600x600.webp" class="image-fluid">
                                                 </div>
                                                 <div class="description">
                                                     <div class="rating">
@@ -7887,7 +7887,7 @@ ready(function() { // DOM loaded
 
                                             <div class="product-content">
                                                 <div class="product-image">
-                                                    <img alt="Gaming PC NEO 2" title="Gaming PC NEO 2" src="https://neocomputer.md/image/cache/webp/data/Componente%20PC/Cases/Case/Sharkoon/Sharkoon%20Pure%20Steel%20RGB,%20Black-600x600.webp" class="image-fluid">
+                                                    <img alt="Gaming PC NEO 2" title="Gaming PC NEO 2" src="https://neocomputer.md/image/cache/data/Componente%20PC/Cases/Case/Sharkoon/Sharkoon%20Pure%20Steel%20RGB,%20Black-600x600.jpg" class="image-fluid">
                                                 </div>
                                                 <div class="description">
                                                     <div class="rating">
@@ -8758,7 +8758,7 @@ ready(function() { // DOM loaded
 
                                             <div class="product-content">
                                                 <div class="product-image">
-                                                    <img alt="Gaming PC NEO 28" title="Gaming PC NEO 28" src="https://neocomputer.md/image/cache/data/Componente%20PC/Cases/Case/Be%20Quiet/Be%20Quiet%20Pure%20Base%20600,%20Window,%20Black-600x600.jpg" class="image-fluid">
+                                                    <img alt="Gaming PC NEO 28" title="Gaming PC NEO 28" src="https://neocomputer.md/image/cache/webp/data/Componente%20PC/Cases/Case/Be%20Quiet/Be%20Quiet%20Pure%20Base%20600,%20Window,%20Black-600x600.webp" class="image-fluid">
                                                 </div>
                                                 <div class="description">
                                                     <div class="rating">

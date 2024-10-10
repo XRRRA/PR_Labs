@@ -1,5 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
+from datetime import datetime, timezone
+from functools import reduce
 
 # Define the URL of the e-commerce site
 url = "https://neocomputer.md/gaming-zone"
@@ -39,26 +41,49 @@ if response.status_code == 200:
             description = description_tag.get_text(strip=True) if description_tag else "No description available"
 
             # Extract and validate price
-            price_str = price_tag.get_text(strip=True).replace('lei', '').replace(' ', '')  # Remove currency and spaces
+            price_str = price_tag.get_text(strip=True).replace('lei', '').replace(' ', '')
+
             try:
-                price = int(price_str)  # Convert to integer; raises ValueError if not valid
+                price_mdl = int(price_str)
             except ValueError:
                 print(f"Invalid price format for {name}. Skipping this product.")
-                continue  # Skip this product if price is invalid
+                continue
 
             link = link_tag['href']
 
             products.append({
                 'name': name,
-                'price': price,
+                'price_mdl': price_mdl,
                 'link': link,
                 'description': description
             })
 
-    # Print extracted products with additional data
+    mdl_to_eur_rate = 0.05
+
     for product in products:
-        print(
-            f"Product Name: {product['name']}, Price: {product['price']}, Link: {product['link']}, Description: {product['description']}")
+        print(f"Product Name: {product['name']}, Price (MDL): {product['price_mdl']}, Link: {product['link']}, Description: {product['description']}")
+        product['price_eur'] = round(product['price_mdl'] * mdl_to_eur_rate, 2)
+
+    # Filter: Define a price range (in EUR)
+    min_price_eur = 500.0
+    max_price_eur = 3000.0
+
+    filtered_products = list(filter(lambda p: min_price_eur <= p.get('price_eur', 0) <= max_price_eur, products))
+
+    # Reduce: Sum up the prices of filtered products (in EUR)
+    total_price_eur = reduce(lambda acc, p: acc + p['price_eur'], filtered_products, 0)
+
+    result_summary = {
+        'timestamp': datetime.now(timezone.utc).isoformat(),
+        'total_price_eur': total_price_eur,
+        'filtered_products': filtered_products,
+    }
+
+    # Print result summary
+    print(f"Total Price (EUR): {result_summary['total_price_eur']}")
+    print("Filtered Products:")
+    for product in result_summary['filtered_products']:
+        print(f"Product Name: {product['name']}, Price (EUR): {product['price_eur']}, Link: {product['link']}")
 
 else:
     print(f"Failed to retrieve content. Status code: {response.status_code}")
