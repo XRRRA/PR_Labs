@@ -136,3 +136,50 @@ with open("serialization_xml.txt", "w", encoding="utf-8") as xml_file:
     xml_file.write(xml_output)
 
 print("Serialized XML saved to serialization_xml.txt")
+
+
+# Custom Serialization Function
+# noinspection PyShadowingNames
+def custom_serialize(data):
+    serialized_data = ""
+
+    for product in data:
+        serialized_data += f"{product['name']}    |    {product['price_mdl']}    |    {product['price_eur']}    |    {product['link']}    |    {product['description']}\n"
+
+    return serialized_data.encode('utf-8')  # Convert to bytes
+
+
+# Custom Deserialization Function
+# noinspection PyShadowingNames
+def custom_deserialize(serialized_data):
+    products = []
+    lines = serialized_data.decode('utf-8').strip().split('\n')
+
+    for line in lines:
+        name, price_mdl, price_eur, link, description = line.split('    |    ')
+        products.append({
+            'name': name,
+            'price_mdl': int(price_mdl),
+            'price_eur': float(price_eur),
+            'link': link,
+            'description': description
+        })
+
+    return products
+
+
+# Serialize filtered products using custom method
+serialized_data = custom_serialize(filtered_products)
+
+# Save serialized data to a file
+with open("serialized_data.txt", "wb") as file:
+    file.write(serialized_data)
+
+print("Serialized data saved to serialized_data.txt")
+
+# Deserialize the data back to original structure for verification
+deserialized_products = custom_deserialize(serialized_data)
+
+print("\nDeserialized Products:")
+for product in deserialized_products:
+    print(product)
