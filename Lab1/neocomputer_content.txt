@@ -87,7 +87,7 @@
             "name": "Curios să vezi cele mai recente modele în Gaming?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "<p>Descoperă top 4 Gaming la ofertele zilei și găsește alegerea ideală!<br><ul><li><a href=\"https://neocomputer.md/monitor-aoc-27g4xe-black\">Monitor AOC 27G4XE, Black</a></li><li><a href=\"https://neocomputer.md/monitor-aoc-cq32g4ve-curved-black\">Monitor AOC CQ32G4VE, Curved, Black</a></li><li><a href=\"https://neocomputer.md/monitor-aoc-u27g3xbk-black\">Monitor AOC U27G3X/BK, Black</a></li><li><a href=\"https://neocomputer.md/monitor-aoc-q27g3xmnbk-black\">Monitor AOC Q27G3XMN/BK, Black</a></li></ul><br></p>"
+                "text": "<p>Descoperă top 4 Gaming la ofertele zilei și găsește alegerea ideală!<br><ul><li><a href=\"https://neocomputer.md/mouse-trust-gxt-929-helox-black-197415\">Mouse Trust GXT 929 HELOX, Black</a></li><li><a href=\"https://neocomputer.md/mouse-lenovo-m410-197403\">Mouse Lenovo M410</a></li><li><a href=\"https://neocomputer.md/mouse-logitech-g309-white-197401\">Mouse Logitech G309, White</a></li><li><a href=\"https://neocomputer.md/monitor-aoc-27g4xe-black\">Monitor AOC 27G4XE, Black</a></li></ul><br></p>"
             }
         },
         {
@@ -103,7 +103,7 @@
             "name": "Interesat de economii suplimentare pe  Gaming?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "<p>Profită acum de top 4 cu cashback garantat și bucură-te de mai mult cu mai puțin!2232</p><p><span class=\"small\" style=\"font-size: 11.96px;\"><ul><li><a href=\"https://neocomputer.md/aoc-gk500-red-rgb-black\">Keyboard AOC GK500-RED RGB, Black</a></li><li><a href=\"https://neocomputer.md/aoc-gk200-rgb-black\">Keyboard AOC GK200 RGB, Black</a></li><li><a href=\"https://neocomputer.md/qumo-pretender-black\">Mouse Qumo Pretender, Black</a></li><li><a href=\"https://neocomputer.md/qumo-splash-black\">Mouse Qumo Splash, Black</a></li></ul></span></p>"
+                "text": "<p>Profită acum de top 4 cu cashback garantat și bucură-te de mai mult cu mai puțin!2232</p><p><span class=\"small\" style=\"font-size: 11.96px;\"><ul><li><a href=\"https://neocomputer.md/aoc-gk500-red-rgb-black\">Keyboard AOC GK500-RED RGB, Black</a></li><li><a href=\"https://neocomputer.md/aoc-gk200-rgb-black\">Keyboard AOC GK200 RGB, Black</a></li><li><a href=\"https://neocomputer.md/qumo-splash-black\">Mouse Qumo Splash, Black</a></li><li><a href=\"https://neocomputer.md/qumo-protector\">Casti Qumo Protector</a></li></ul></span></p>"
             }
         }
     ]
@@ -204,7 +204,7 @@
         "@type": "ItemList",
         "name": "Gaming",
         "url": "https://neocomputer.md/gaming-zone",
-        "numberOfItems": "962",
+        "numberOfItems": "900",
         "itemListOrder": "Unordered",
         "itemListElement": [
                  ]
@@ -3120,7 +3120,7 @@
 
                   <span class="ocf-value-name">Laptopuri Gaming</span>
                                       <span class="ocf-value-append">
-                      <span class="ocf-value-count">(54)</span>
+                      <span class="ocf-value-count">(58)</span>
                     </span>
                                   </a>
 
@@ -3129,7 +3129,7 @@
 
                   <span class="ocf-value-name">Monitoare Gaming</span>
                                       <span class="ocf-value-append">
-                      <span class="ocf-value-count">(117)</span>
+                      <span class="ocf-value-count">(112)</span>
                     </span>
                                   </a>
 
@@ -3138,7 +3138,7 @@
 
                   <span class="ocf-value-name">Scaune Gaming</span>
                                       <span class="ocf-value-append">
-                      <span class="ocf-value-count">(153)</span>
+                      <span class="ocf-value-count">(147)</span>
                     </span>
                                   </a>
 
@@ -3147,7 +3147,7 @@
 
                   <span class="ocf-value-name">Console Gaming</span>
                                       <span class="ocf-value-append">
-                      <span class="ocf-value-count">(25)</span>
+                      <span class="ocf-value-count">(24)</span>
                     </span>
                                   </a>
 
@@ -3156,7 +3156,7 @@
 
                   <span class="ocf-value-name">Keyboard Gaming</span>
                                       <span class="ocf-value-append">
-                      <span class="ocf-value-count">(86)</span>
+                      <span class="ocf-value-count">(82)</span>
                     </span>
                                   </a>
 
@@ -3165,7 +3165,7 @@
 
                   <span class="ocf-value-name">Mouse Gaming</span>
                                       <span class="ocf-value-append">
-                      <span class="ocf-value-count">(160)</span>
+                      <span class="ocf-value-count">(134)</span>
                     </span>
                                   </a>
 
@@ -3174,7 +3174,7 @@
 
                   <span class="ocf-value-name">Casti (headset) Gaming</span>
                                       <span class="ocf-value-append">
-                      <span class="ocf-value-count">(160)</span>
+                      <span class="ocf-value-count">(142)</span>
                     </span>
                                   </a>
 
@@ -3183,7 +3183,7 @@
 
                   <span class="ocf-value-name">Game Pad/Joystick</span>
                                       <span class="ocf-value-append">
-                      <span class="ocf-value-count">(85)</span>
+                      <span class="ocf-value-count">(83)</span>
                     </span>
                                   </a>
 
@@ -3192,7 +3192,7 @@
 
                   <span class="ocf-value-name">Mouse Pad Gaming</span>
                                       <span class="ocf-value-append">
-                      <span class="ocf-value-count">(43)</span>
+                      <span class="ocf-value-count">(39)</span>
                     </span>
                                   </a>
 
@@ -3215,7 +3215,7 @@
       
             <span class="ocf-active-label">
         
-        <span id="ocf-text-min-2-0-1">54</span>
+        <span id="ocf-text-min-2-0-1">45</span>
                 - <span id="ocf-text-max-2-0-1">131119</span>
                 MDL
       </span>    
@@ -3237,16 +3237,16 @@
     <div class="ocf-value-list">
   <div class="ocf-value-list-body">
     <div class="ocf-input-group ocf-slider-input-group">
-        <input type="number" name="ocf[2-0-1][min]" value="54" class="ocf-form-control" id="ocf-input-min-2-0-1" autocomplete="off" aria-label="Preț"  />
+        <input type="number" name="ocf[2-0-1][min]" value="45" class="ocf-form-control" id="ocf-input-min-2-0-1" autocomplete="off" aria-label="Preț"  />
             <input type="number" name="ocf[2-0-1][max]" value="131119" class="ocf-form-control" id="ocf-input-max-2-0-1" autocomplete="off" aria-label="Preț"  />
           </div>
     <div class="ocf-value-slider">
     <div id="ocf-s-2-0-1" class="ocf-value-scale"
       data-filter-key="2.0"
-      data-min="54"
+      data-min="45"
       data-max="131119"
       data-range="true"
-      data-min-start="54"
+      data-min-start="45"
             data-max-start="131119"
             
             data-input-min="#ocf-input-min-2-0-1"
@@ -3302,7 +3302,7 @@
       
   <span class="ocf-value-name">Asus</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">59</span>
+    <span class="ocf-value-count">50</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-485-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="485">
@@ -3342,7 +3342,7 @@
       
   <span class="ocf-value-name">Bloody</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">52</span>
+    <span class="ocf-value-count">51</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-263-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="263">
@@ -3350,7 +3350,7 @@
       
   <span class="ocf-value-name">Cougar</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">31</span>
+    <span class="ocf-value-count">27</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-84-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="84">
@@ -3398,7 +3398,7 @@
       
   <span class="ocf-value-name">Gembird</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">32</span>
+    <span class="ocf-value-count">31</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-41-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="41">
@@ -3406,7 +3406,7 @@
       
   <span class="ocf-value-name">Genesis</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">35</span>
+    <span class="ocf-value-count">31</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-191-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="191">
@@ -3414,7 +3414,7 @@
       
   <span class="ocf-value-name">Havit</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">21</span>
+    <span class="ocf-value-count">20</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-258-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="258">
@@ -3430,7 +3430,7 @@
       
   <span class="ocf-value-name">HyperX</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">72</span>
+    <span class="ocf-value-count">61</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-63-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="63">
@@ -3446,7 +3446,7 @@
       
   <span class="ocf-value-name">Logitech</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">57</span>
+    <span class="ocf-value-count">52</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-61-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="61">
@@ -3462,7 +3462,7 @@
       
   <span class="ocf-value-name">Microsoft</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">24</span>
+    <span class="ocf-value-count">23</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-15-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="15">
@@ -3494,7 +3494,7 @@
       
   <span class="ocf-value-name">Noblechairs</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">20</span>
+    <span class="ocf-value-count">19</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-153-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="153">
@@ -3526,7 +3526,7 @@
       
   <span class="ocf-value-name">Qumo</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">4</span>
+    <span class="ocf-value-count">2</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-65-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="65">
@@ -3534,7 +3534,7 @@
       
   <span class="ocf-value-name">Razer</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">82</span>
+    <span class="ocf-value-count">65</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-66-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="66">
@@ -3550,7 +3550,7 @@
       
   <span class="ocf-value-name">Samsung</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">22</span>
+    <span class="ocf-value-count">18</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-78-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="78">
@@ -3574,7 +3574,7 @@
       
   <span class="ocf-value-name">SVEN</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">57</span>
+    <span class="ocf-value-count">53</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-453-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="453">
@@ -3590,7 +3590,7 @@
       
   <span class="ocf-value-name">ThunderX3</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">17</span>
+    <span class="ocf-value-count">16</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-87-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="87">
@@ -3598,7 +3598,7 @@
       
   <span class="ocf-value-name">Trust</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">33</span>
+    <span class="ocf-value-count">34</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-488-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="488">
@@ -3646,7 +3646,7 @@
       
   <span class="ocf-value-name">Dell</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">13</span>
+    <span class="ocf-value-count">12</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-37-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="37">
@@ -3654,7 +3654,7 @@
       
   <span class="ocf-value-name">HP</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">14</span>
+    <span class="ocf-value-count">17</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-1-0-284-1" class="ocf-value ocf-checkbox" data-filter-key="1.0" data-value-id="284">
@@ -3662,7 +3662,7 @@
       
   <span class="ocf-value-name">Acer</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">34</span>
+    <span class="ocf-value-count">35</span>
   </span>
   </button>          </div>
 
@@ -3724,7 +3724,7 @@
       
   <span class="ocf-value-name">Da</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">5</span>
+    <span class="ocf-value-count">4</span>
   </span>
   </button>          </div>
 
@@ -3770,7 +3770,7 @@
       
   <span class="ocf-value-name">Da</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">82</span>
+    <span class="ocf-value-count">79</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-210-2-2111358690-1" class="ocf-value ocf-checkbox" data-filter-key="210.2" data-value-id="2111358690">
@@ -3832,7 +3832,7 @@
       
   <span class="ocf-value-name">Nu</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">74</span>
+    <span class="ocf-value-count">71</span>
   </span>
   </button>          </div>
 
@@ -3878,7 +3878,7 @@
       
   <span class="ocf-value-name">1.2</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">2</span>
+    <span class="ocf-value-count">1</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-155-2-3800690316-1" class="ocf-value ocf-checkbox" data-filter-key="155.2" data-value-id="3800690316">
@@ -3921,20 +3921,12 @@
     <span class="ocf-value-count">8</span>
   </span>
   </button>            
-<button type="button" id="ocf-v-155-2-1084789053-1" class="ocf-value ocf-checkbox" data-filter-key="155.2" data-value-id="1084789053">
-    <span class="ocf-value-input ocf-value-input-checkbox"></span>
-      
-  <span class="ocf-value-name">1.75</span>
-    <span class="ocf-value-append">   
-    <span class="ocf-value-count">1</span>
-  </span>
-  </button>            
 <button type="button" id="ocf-v-155-2-3897505384-1" class="ocf-value ocf-checkbox" data-filter-key="155.2" data-value-id="3897505384">
     <span class="ocf-value-input ocf-value-input-checkbox"></span>
       
   <span class="ocf-value-name">1.8</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">77</span>
+    <span class="ocf-value-count">65</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-155-2-2672297726-1" class="ocf-value ocf-checkbox" data-filter-key="155.2" data-value-id="2672297726">
@@ -3950,7 +3942,7 @@
       
   <span class="ocf-value-name">2</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">4</span>
+    <span class="ocf-value-count">3</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-155-2-2480222357-1" class="ocf-value ocf-checkbox" data-filter-key="155.2" data-value-id="2480222357">
@@ -3958,7 +3950,7 @@
       
   <span class="ocf-value-name">2.1</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">9</span>
+    <span class="ocf-value-count">7</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-155-2-1643593875-1" class="ocf-value ocf-checkbox" data-filter-key="155.2" data-value-id="1643593875">
@@ -3974,7 +3966,7 @@
       
   <span class="ocf-value-name">2.2</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">9</span>
+    <span class="ocf-value-count">8</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-155-2-1593851417-1" class="ocf-value ocf-checkbox" data-filter-key="155.2" data-value-id="1593851417">
@@ -4006,7 +3998,7 @@
       
   <span class="ocf-value-name">Nu</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">35</span>
+    <span class="ocf-value-count">24</span>
   </span>
   </button>          </div>
 
@@ -4060,7 +4052,7 @@
       
   <span class="ocf-value-name">5</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">9</span>
+    <span class="ocf-value-count">4</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-154-2-3599629285-1" class="ocf-value ocf-checkbox" data-filter-key="154.2" data-value-id="3599629285">
@@ -4076,7 +4068,7 @@
       
   <span class="ocf-value-name">6</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">68</span>
+    <span class="ocf-value-count">55</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-154-2-3570091452-1" class="ocf-value ocf-checkbox" data-filter-key="154.2" data-value-id="3570091452">
@@ -4092,7 +4084,7 @@
       
   <span class="ocf-value-name">7</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">20</span>
+    <span class="ocf-value-count">18</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-154-2-2649854534-1" class="ocf-value ocf-checkbox" data-filter-key="154.2" data-value-id="2649854534">
@@ -4100,7 +4092,7 @@
       
   <span class="ocf-value-name">8</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">23</span>
+    <span class="ocf-value-count">20</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-154-2-3942032080-1" class="ocf-value ocf-checkbox" data-filter-key="154.2" data-value-id="3942032080">
@@ -4108,7 +4100,7 @@
       
   <span class="ocf-value-name">9</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">5</span>
+    <span class="ocf-value-count">4</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-154-2-3124457823-1" class="ocf-value ocf-checkbox" data-filter-key="154.2" data-value-id="3124457823">
@@ -4116,7 +4108,7 @@
       
   <span class="ocf-value-name">10</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">15</span>
+    <span class="ocf-value-count">14</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-154-2-3443278281-1" class="ocf-value ocf-checkbox" data-filter-key="154.2" data-value-id="3443278281">
@@ -4124,7 +4116,7 @@
       
   <span class="ocf-value-name">11</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">8</span>
+    <span class="ocf-value-count">6</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-154-2-1412763763-1" class="ocf-value ocf-checkbox" data-filter-key="154.2" data-value-id="1412763763">
@@ -4132,15 +4124,7 @@
       
   <span class="ocf-value-name">12</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">7</span>
-  </span>
-  </button>            
-<button type="button" id="ocf-v-154-2-590487781-1" class="ocf-value ocf-checkbox" data-filter-key="154.2" data-value-id="590487781">
-    <span class="ocf-value-input ocf-value-input-checkbox"></span>
-      
-  <span class="ocf-value-name">13</span>
-    <span class="ocf-value-append">   
-    <span class="ocf-value-count">1</span>
+    <span class="ocf-value-count">6</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-154-2-3176576326-1" class="ocf-value ocf-checkbox" data-filter-key="154.2" data-value-id="3176576326">
@@ -4148,7 +4132,7 @@
       
   <span class="ocf-value-name">14</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">2</span>
+    <span class="ocf-value-count">1</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-154-2-3394340304-1" class="ocf-value ocf-checkbox" data-filter-key="154.2" data-value-id="3394340304">
@@ -4171,14 +4155,6 @@
     <span class="ocf-value-input ocf-value-input-checkbox"></span>
       
   <span class="ocf-value-name">19</span>
-    <span class="ocf-value-append">   
-    <span class="ocf-value-count">1</span>
-  </span>
-  </button>            
-<button type="button" id="ocf-v-154-2-2434146972-1" class="ocf-value ocf-checkbox" data-filter-key="154.2" data-value-id="2434146972">
-    <span class="ocf-value-input ocf-value-input-checkbox"></span>
-      
-  <span class="ocf-value-name">20</span>
     <span class="ocf-value-append">   
     <span class="ocf-value-count">1</span>
   </span>
@@ -4258,7 +4234,7 @@
       
   <span class="ocf-value-name">Acer Nitro</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">8</span>
+    <span class="ocf-value-count">9</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-6457-2-4141452896-1" class="ocf-value ocf-checkbox" data-filter-key="6457.2" data-value-id="4141452896">
@@ -4282,7 +4258,7 @@
       
   <span class="ocf-value-name">Asus ROG Zephyrus</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">6</span>
+    <span class="ocf-value-count">5</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-6457-2-771942517-1" class="ocf-value ocf-checkbox" data-filter-key="6457.2" data-value-id="771942517">
@@ -4293,12 +4269,20 @@
     <span class="ocf-value-count">10</span>
   </span>
   </button>            
+<button type="button" id="ocf-v-6457-2-852725418-1" class="ocf-value ocf-checkbox" data-filter-key="6457.2" data-value-id="852725418">
+    <span class="ocf-value-input ocf-value-input-checkbox"></span>
+      
+  <span class="ocf-value-name">HP Omen</span>
+    <span class="ocf-value-append">   
+    <span class="ocf-value-count">1</span>
+  </span>
+  </button>            
 <button type="button" id="ocf-v-6457-2-1643576244-1" class="ocf-value ocf-checkbox" data-filter-key="6457.2" data-value-id="1643576244">
     <span class="ocf-value-input ocf-value-input-checkbox"></span>
       
   <span class="ocf-value-name">HP Victus</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">3</span>
+    <span class="ocf-value-count">5</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-6457-2-992946478-1" class="ocf-value ocf-checkbox" data-filter-key="6457.2" data-value-id="992946478">
@@ -4317,20 +4301,12 @@
     <span class="ocf-value-count">4</span>
   </span>
   </button>            
-<button type="button" id="ocf-v-6457-2-3648139674-1" class="ocf-value ocf-checkbox" data-filter-key="6457.2" data-value-id="3648139674">
-    <span class="ocf-value-input ocf-value-input-checkbox"></span>
-      
-  <span class="ocf-value-name">Lenovo Legion Slim</span>
-    <span class="ocf-value-append">   
-    <span class="ocf-value-count">2</span>
-  </span>
-  </button>            
 <button type="button" id="ocf-v-6457-2-137002352-1" class="ocf-value ocf-checkbox" data-filter-key="6457.2" data-value-id="137002352">
     <span class="ocf-value-input ocf-value-input-checkbox"></span>
       
   <span class="ocf-value-name">Lenovo LOQ</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">4</span>
+    <span class="ocf-value-count">7</span>
   </span>
   </button>          </div>
 
@@ -4376,7 +4352,7 @@
       
   <span class="ocf-value-name">Cu fir</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">56</span>
+    <span class="ocf-value-count">50</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-153-2-878434116-1" class="ocf-value ocf-checkbox" data-filter-key="153.2" data-value-id="878434116">
@@ -4384,7 +4360,7 @@
       
   <span class="ocf-value-name">Mecanica</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">54</span>
+    <span class="ocf-value-count">52</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-153-2-3900902198-1" class="ocf-value ocf-checkbox" data-filter-key="153.2" data-value-id="3900902198">
@@ -4392,7 +4368,7 @@
       
   <span class="ocf-value-name">Membrana</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">20</span>
+    <span class="ocf-value-count">19</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-153-2-217129946-1" class="ocf-value ocf-checkbox" data-filter-key="153.2" data-value-id="217129946">
@@ -4408,7 +4384,7 @@
       
   <span class="ocf-value-name">Wireless</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">24</span>
+    <span class="ocf-value-count">23</span>
   </span>
   </button>          </div>
 
@@ -4454,7 +4430,7 @@
       
   <span class="ocf-value-name">Cu fir</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">240</span>
+    <span class="ocf-value-count">218</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-119-2-101989214-1" class="ocf-value ocf-checkbox" data-filter-key="119.2" data-value-id="101989214">
@@ -4470,7 +4446,7 @@
       
   <span class="ocf-value-name">Wireless</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">108</span>
+    <span class="ocf-value-count">85</span>
   </span>
   </button>          </div>
 
@@ -4516,7 +4492,7 @@
       
   <span class="ocf-value-name">Gaming</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">149</span>
+    <span class="ocf-value-count">119</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-152-2-1393896859-1" class="ocf-value ocf-checkbox" data-filter-key="152.2" data-value-id="1393896859">
@@ -4524,7 +4500,7 @@
       
   <span class="ocf-value-name">Optic</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">2</span>
+    <span class="ocf-value-count">3</span>
   </span>
   </button>          </div>
 
@@ -4570,7 +4546,7 @@
       
   <span class="ocf-value-name">15 - 16</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">45</span>
+    <span class="ocf-value-count">47</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-6987-2-768106595-1" class="ocf-value ocf-checkbox" data-filter-key="6987.2" data-value-id="768106595">
@@ -4594,7 +4570,7 @@
       
   <span class="ocf-value-name">25 - 27</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">67</span>
+    <span class="ocf-value-count">65</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-6987-2-250011733-1" class="ocf-value ocf-checkbox" data-filter-key="6987.2" data-value-id="250011733">
@@ -4610,7 +4586,7 @@
       
   <span class="ocf-value-name">31 - 34</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">24</span>
+    <span class="ocf-value-count">22</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-6987-2-1621354195-1" class="ocf-value ocf-checkbox" data-filter-key="6987.2" data-value-id="1621354195">
@@ -4626,7 +4602,7 @@
       
   <span class="ocf-value-name">43 - 49</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">3</span>
+    <span class="ocf-value-count">2</span>
   </span>
   </button>          </div>
 
@@ -4688,7 +4664,7 @@
       
   <span class="ocf-value-name">PU Leather</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">4</span>
+    <span class="ocf-value-count">3</span>
   </span>
   </button>          </div>
 
@@ -4729,20 +4705,12 @@
      
     <div class="ocf-value-list-body">
             
-<button type="button" id="ocf-v-12-2-2167946716-1" class="ocf-value ocf-checkbox" data-filter-key="12.2" data-value-id="2167946716">
-    <span class="ocf-value-input ocf-value-input-checkbox"></span>
-      
-  <span class="ocf-value-name">GeForce GT 710</span>
-    <span class="ocf-value-append">   
-    <span class="ocf-value-count">1</span>
-  </span>
-  </button>            
 <button type="button" id="ocf-v-12-2-1861883125-1" class="ocf-value ocf-checkbox" data-filter-key="12.2" data-value-id="1861883125">
     <span class="ocf-value-input ocf-value-input-checkbox"></span>
       
   <span class="ocf-value-name">GeForce GTX 1650</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">6</span>
+    <span class="ocf-value-count">7</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-12-2-1598060384-1" class="ocf-value ocf-checkbox" data-filter-key="12.2" data-value-id="1598060384">
@@ -4766,7 +4734,7 @@
       
   <span class="ocf-value-name">GeForce RTX 3050</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">6</span>
+    <span class="ocf-value-count">9</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-12-2-3736420454-1" class="ocf-value ocf-checkbox" data-filter-key="12.2" data-value-id="3736420454">
@@ -4775,6 +4743,14 @@
   <span class="ocf-value-name">GeForce RTX 3060</span>
     <span class="ocf-value-append">   
     <span class="ocf-value-count">4</span>
+  </span>
+  </button>            
+<button type="button" id="ocf-v-12-2-1077308904-1" class="ocf-value ocf-checkbox" data-filter-key="12.2" data-value-id="1077308904">
+    <span class="ocf-value-input ocf-value-input-checkbox"></span>
+      
+  <span class="ocf-value-name">GeForce RTX 3080</span>
+    <span class="ocf-value-append">   
+    <span class="ocf-value-count">1</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-12-2-1750018844-1" class="ocf-value ocf-checkbox" data-filter-key="12.2" data-value-id="1750018844">
@@ -4790,7 +4766,7 @@
       
   <span class="ocf-value-name">GeForce RTX 4060</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">25</span>
+    <span class="ocf-value-count">26</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-12-2-1721373773-1" class="ocf-value ocf-checkbox" data-filter-key="12.2" data-value-id="1721373773">
@@ -4806,7 +4782,7 @@
       
   <span class="ocf-value-name">GeForce RTX 4070</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">14</span>
+    <span class="ocf-value-count">12</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-12-2-1168093897-1" class="ocf-value ocf-checkbox" data-filter-key="12.2" data-value-id="1168093897">
@@ -4838,7 +4814,7 @@
       
   <span class="ocf-value-name">GeForce RTX 4080</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">4</span>
+    <span class="ocf-value-count">5</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-12-2-3017261600-1" class="ocf-value ocf-checkbox" data-filter-key="12.2" data-value-id="3017261600">
@@ -4956,7 +4932,7 @@
       
   <span class="ocf-value-name">AMD</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">58</span>
+    <span class="ocf-value-count">61</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-2-2-3751536722-1" class="ocf-value ocf-checkbox" data-filter-key="2.2" data-value-id="3751536722">
@@ -5018,7 +4994,7 @@
       
   <span class="ocf-value-name">144 Hz</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">36</span>
+    <span class="ocf-value-count">38</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-495-2-2860525101-1" class="ocf-value ocf-checkbox" data-filter-key="495.2" data-value-id="2860525101">
@@ -5050,7 +5026,7 @@
       
   <span class="ocf-value-name">165 Hz</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">58</span>
+    <span class="ocf-value-count">57</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-495-2-9039526-1" class="ocf-value ocf-checkbox" data-filter-key="495.2" data-value-id="9039526">
@@ -5090,7 +5066,7 @@
       
   <span class="ocf-value-name">240 Hz</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">32</span>
+    <span class="ocf-value-count">30</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-495-2-3978321149-1" class="ocf-value ocf-checkbox" data-filter-key="495.2" data-value-id="3978321149">
@@ -5176,7 +5152,7 @@
       
   <span class="ocf-value-name">AMD Ryzen 5</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">17</span>
+    <span class="ocf-value-count">19</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-3962-2-2551996719-1" class="ocf-value ocf-checkbox" data-filter-key="3962.2" data-value-id="2551996719">
@@ -5184,7 +5160,7 @@
       
   <span class="ocf-value-name">AMD Ryzen 7</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">18</span>
+    <span class="ocf-value-count">19</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-3962-2-2141473832-1" class="ocf-value ocf-checkbox" data-filter-key="3962.2" data-value-id="2141473832">
@@ -5192,7 +5168,7 @@
       
   <span class="ocf-value-name">AMD Ryzen 9</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">15</span>
+    <span class="ocf-value-count">16</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-3962-2-3933989284-1" class="ocf-value ocf-checkbox" data-filter-key="3962.2" data-value-id="3933989284">
@@ -5224,7 +5200,7 @@
       
   <span class="ocf-value-name">Intel Core i5</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">23</span>
+    <span class="ocf-value-count">25</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-3962-2-3233832134-1" class="ocf-value ocf-checkbox" data-filter-key="3962.2" data-value-id="3233832134">
@@ -5232,7 +5208,7 @@
       
   <span class="ocf-value-name">Intel Core i7</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">23</span>
+    <span class="ocf-value-count">22</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-3962-2-662204865-1" class="ocf-value ocf-checkbox" data-filter-key="3962.2" data-value-id="662204865">
@@ -5240,7 +5216,7 @@
       
   <span class="ocf-value-name">Intel Core i9</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">17</span>
+    <span class="ocf-value-count">16</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-3962-2-201254090-1" class="ocf-value ocf-checkbox" data-filter-key="3962.2" data-value-id="201254090">
@@ -5264,7 +5240,7 @@
       
   <span class="ocf-value-name">Zen 2</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">2</span>
+    <span class="ocf-value-count">1</span>
   </span>
   </button>          </div>
 
@@ -5318,7 +5294,7 @@
       
   <span class="ocf-value-name">16 GB</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">64</span>
+    <span class="ocf-value-count">68</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-5170-2-2432062561-1" class="ocf-value ocf-checkbox" data-filter-key="5170.2" data-value-id="2432062561">
@@ -5404,7 +5380,7 @@
       
   <span class="ocf-value-name">IPS</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">110</span>
+    <span class="ocf-value-count">111</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-34-2-888674828-1" class="ocf-value ocf-checkbox" data-filter-key="34.2" data-value-id="888674828">
@@ -5428,7 +5404,7 @@
       
   <span class="ocf-value-name">LED VA</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">58</span>
+    <span class="ocf-value-count">57</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-34-2-2501925853-1" class="ocf-value ocf-checkbox" data-filter-key="34.2" data-value-id="2501925853">
@@ -5436,7 +5412,7 @@
       
   <span class="ocf-value-name">OLED</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">7</span>
+    <span class="ocf-value-count">6</span>
   </span>
   </button>          </div>
 
@@ -5485,28 +5461,12 @@
     <span class="ocf-value-count">3</span>
   </span>
   </button>            
-<button type="button" id="ocf-v-9-2-2314810883-1" class="ocf-value ocf-checkbox" data-filter-key="9.2" data-value-id="2314810883">
-    <span class="ocf-value-input ocf-value-input-checkbox"></span>
-      
-  <span class="ocf-value-name">250</span>
-    <span class="ocf-value-append">   
-    <span class="ocf-value-count">1</span>
-  </span>
-  </button>            
-<button type="button" id="ocf-v-9-2-1620742966-1" class="ocf-value ocf-checkbox" data-filter-key="9.2" data-value-id="1620742966">
-    <span class="ocf-value-input ocf-value-input-checkbox"></span>
-      
-  <span class="ocf-value-name">256</span>
-    <span class="ocf-value-append">   
-    <span class="ocf-value-count">1</span>
-  </span>
-  </button>            
 <button type="button" id="ocf-v-9-2-4056011971-1" class="ocf-value ocf-checkbox" data-filter-key="9.2" data-value-id="4056011971">
     <span class="ocf-value-input ocf-value-input-checkbox"></span>
       
   <span class="ocf-value-name">500</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">17</span>
+    <span class="ocf-value-count">19</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-9-2-114590894-1" class="ocf-value ocf-checkbox" data-filter-key="9.2" data-value-id="114590894">
@@ -5514,7 +5474,7 @@
       
   <span class="ocf-value-name">512</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">7</span>
+    <span class="ocf-value-count">8</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-9-2-3141915037-1" class="ocf-value ocf-checkbox" data-filter-key="9.2" data-value-id="3141915037">
@@ -5530,7 +5490,7 @@
       
   <span class="ocf-value-name">1000</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">65</span>
+    <span class="ocf-value-count">68</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-9-2-131480195-1" class="ocf-value ocf-checkbox" data-filter-key="9.2" data-value-id="131480195">
@@ -5554,7 +5514,7 @@
       
   <span class="ocf-value-name">2000</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">13</span>
+    <span class="ocf-value-count">14</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-9-2-1834710957-1" class="ocf-value ocf-checkbox" data-filter-key="9.2" data-value-id="1834710957">
@@ -5632,7 +5592,7 @@
       
   <span class="ocf-value-name">16.000 dpi</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">3</span>
+    <span class="ocf-value-count">2</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-31-2-1359863744-1" class="ocf-value ocf-checkbox" data-filter-key="31.2" data-value-id="1359863744">
@@ -5672,7 +5632,7 @@
       
   <span class="ocf-value-name">500 - 6400 dpi</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">3</span>
+    <span class="ocf-value-count">2</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-31-2-1814028999-1" class="ocf-value ocf-checkbox" data-filter-key="31.2" data-value-id="1814028999">
@@ -5728,7 +5688,7 @@
       
   <span class="ocf-value-name">1920 x 1080</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">88</span>
+    <span class="ocf-value-count">90</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-31-2-1729735006-1" class="ocf-value ocf-checkbox" data-filter-key="31.2" data-value-id="1729735006">
@@ -5736,7 +5696,7 @@
       
   <span class="ocf-value-name">1920 x 1200</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">6</span>
+    <span class="ocf-value-count">5</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-31-2-2643795313-1" class="ocf-value ocf-checkbox" data-filter-key="31.2" data-value-id="2643795313">
@@ -5744,7 +5704,7 @@
       
   <span class="ocf-value-name">2560 x 1440</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">46</span>
+    <span class="ocf-value-count">48</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-31-2-4202499099-1" class="ocf-value ocf-checkbox" data-filter-key="31.2" data-value-id="4202499099">
@@ -5752,15 +5712,7 @@
       
   <span class="ocf-value-name">2560 x 1600</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">19</span>
-  </span>
-  </button>            
-<button type="button" id="ocf-v-31-2-2452354855-1" class="ocf-value ocf-checkbox" data-filter-key="31.2" data-value-id="2452354855">
-    <span class="ocf-value-input ocf-value-input-checkbox"></span>
-      
-  <span class="ocf-value-name">3200 x 2000</span>
-    <span class="ocf-value-append">   
-    <span class="ocf-value-count">1</span>
+    <span class="ocf-value-count">18</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-31-2-3520796805-1" class="ocf-value ocf-checkbox" data-filter-key="31.2" data-value-id="3520796805">
@@ -5784,7 +5736,7 @@
       
   <span class="ocf-value-name">3840 x 2160</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">9</span>
+    <span class="ocf-value-count">8</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-31-2-2314295889-1" class="ocf-value ocf-checkbox" data-filter-key="31.2" data-value-id="2314295889">
@@ -5792,13 +5744,21 @@
       
   <span class="ocf-value-name">5120 x 1440</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">2</span>
+    <span class="ocf-value-count">1</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-31-2-3827671994-1" class="ocf-value ocf-checkbox" data-filter-key="31.2" data-value-id="3827671994">
     <span class="ocf-value-input ocf-value-input-checkbox"></span>
       
   <span class="ocf-value-name">6400 dpi</span>
+    <span class="ocf-value-append">   
+    <span class="ocf-value-count">1</span>
+  </span>
+  </button>            
+<button type="button" id="ocf-v-31-2-3289976940-1" class="ocf-value ocf-checkbox" data-filter-key="31.2" data-value-id="3289976940">
+    <span class="ocf-value-input ocf-value-input-checkbox"></span>
+      
+  <span class="ocf-value-name">18000 dpi</span>
     <span class="ocf-value-append">   
     <span class="ocf-value-count">1</span>
   </span>
@@ -5846,7 +5806,7 @@
       
   <span class="ocf-value-name">Da</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">51</span>
+    <span class="ocf-value-count">49</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-150-2-248255116-1" class="ocf-value ocf-checkbox" data-filter-key="150.2" data-value-id="248255116">
@@ -5854,7 +5814,7 @@
       
   <span class="ocf-value-name">Nu</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">75</span>
+    <span class="ocf-value-count">72</span>
   </span>
   </button>          </div>
 
@@ -5946,7 +5906,7 @@
       
   <span class="ocf-value-name">Da</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">55</span>
+    <span class="ocf-value-count">54</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-498-2-1581598417-1" class="ocf-value ocf-checkbox" data-filter-key="498.2" data-value-id="1581598417">
@@ -5954,7 +5914,7 @@
       
   <span class="ocf-value-name">Nu</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">68</span>
+    <span class="ocf-value-count">64</span>
   </span>
   </button>          </div>
 
@@ -5995,20 +5955,12 @@
      
     <div class="ocf-value-list-body">
             
-<button type="button" id="ocf-v-9294-2-1502248832-1" class="ocf-value ocf-checkbox" data-filter-key="9294.2" data-value-id="1502248832">
-    <span class="ocf-value-input ocf-value-input-checkbox"></span>
-      
-  <span class="ocf-value-name">2GB</span>
-    <span class="ocf-value-append">   
-    <span class="ocf-value-count">1</span>
-  </span>
-  </button>            
 <button type="button" id="ocf-v-9294-2-1560740658-1" class="ocf-value ocf-checkbox" data-filter-key="9294.2" data-value-id="1560740658">
     <span class="ocf-value-input ocf-value-input-checkbox"></span>
       
   <span class="ocf-value-name">4GB</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">6</span>
+    <span class="ocf-value-count">7</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-9294-2-1585698652-1" class="ocf-value ocf-checkbox" data-filter-key="9294.2" data-value-id="1585698652">
@@ -6102,7 +6054,7 @@
       
   <span class="ocf-value-name">Free Dos</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">41</span>
+    <span class="ocf-value-count">45</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-22-2-4104383238-1" class="ocf-value ocf-checkbox" data-filter-key="22.2" data-value-id="4104383238">
@@ -6266,7 +6218,7 @@
       
   <span class="ocf-value-name">Black | Чёрный</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">64</span>
+    <span class="ocf-value-count">60</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-25-2-3032939482-1" class="ocf-value ocf-checkbox" data-filter-key="25.2" data-value-id="3032939482">
@@ -6458,7 +6410,7 @@
       
   <span class="ocf-value-name">White | Белый</span>
     <span class="ocf-value-append">   
-    <span class="ocf-value-count">7</span>
+    <span class="ocf-value-count">6</span>
   </span>
   </button>            
 <button type="button" id="ocf-v-25-2-1643852773-1" class="ocf-value ocf-checkbox" data-filter-key="25.2" data-value-id="1643852773">
@@ -6658,7 +6610,7 @@ ready(function() { // DOM loaded
                     <span>Gaming</span>
                 </h1>
                                     <p class="product-count hidden_mobile">
-                        962 <span> Produse</span>
+                        900 <span> Produse</span>
                     </p>
                             </div>
             <!-- Section title end -->
@@ -6697,7 +6649,7 @@ ready(function() { // DOM loaded
 
                     </div>
                     <p class="product-count mobile_only">
-                        962 <span> Produse</span>
+                        900 <span> Produse</span>
                     </p>
                 </div>
 
@@ -6809,7 +6761,7 @@ ready(function() { // DOM loaded
 
                                             <div class="product-content">
                                                 <div class="product-image">
-                                                    <img alt="Gaming PC NEO 1" title="Gaming PC NEO 1" src="https://neocomputer.md/image/cache/webp/data/Componente%20PC/Cases/Case/Deepcool/Deepcool%20CK500,%20White_1-600x600.webp" class="image-fluid">
+                                                    <img alt="Gaming PC NEO 1" title="Gaming PC NEO 1" src="https://neocomputer.md/image/cache/data/Componente%20PC/Cases/Case/Deepcool/Deepcool%20CK500,%20White_1-600x600.jpg" class="image-fluid">
                                                 </div>
                                                 <div class="description">
                                                     <div class="rating">
@@ -7005,7 +6957,7 @@ ready(function() { // DOM loaded
 
                                             <div class="product-content">
                                                 <div class="product-image">
-                                                    <img alt="Gaming PC NEO 11" title="Gaming PC NEO 11" src="https://neocomputer.md/image/cache/webp/data/Componente%20PC/Cases/Case/Asus/Asus_TUF_Gaming_GT301_Black-600x600.webp" class="image-fluid">
+                                                    <img alt="Gaming PC NEO 11" title="Gaming PC NEO 11" src="https://neocomputer.md/image/cache/data/Componente%20PC/Cases/Case/Asus/Asus_TUF_Gaming_GT301_Black-600x600.jpg" class="image-fluid">
                                                 </div>
                                                 <div class="description">
                                                     <div class="rating">
@@ -7299,7 +7251,7 @@ ready(function() { // DOM loaded
 
                                             <div class="product-content">
                                                 <div class="product-image">
-                                                    <img alt="Gaming PC NEO 14" title="Gaming PC NEO 14" src="https://neocomputer.md/image/cache/data/Componente%20PC/Cases/Case/Sharkoon/Sharkoon%20TG7M%20RGB,%20Black-600x600.jpg" class="image-fluid">
+                                                    <img alt="Gaming PC NEO 14" title="Gaming PC NEO 14" src="https://neocomputer.md/image/cache/webp/data/Componente%20PC/Cases/Case/Sharkoon/Sharkoon%20TG7M%20RGB,%20Black-600x600.webp" class="image-fluid">
                                                 </div>
                                                 <div class="description">
                                                     <div class="rating">
@@ -7495,7 +7447,7 @@ ready(function() { // DOM loaded
 
                                             <div class="product-content">
                                                 <div class="product-image">
-                                                    <img alt="Gaming PC NEO 16" title="Gaming PC NEO 16" src="https://neocomputer.md/image/cache/data/Componente%20PC/Cases/Case/Be%20Quiet/Be_Quiet_Pure_Base_500FX_Black-600x600.jpg" class="image-fluid">
+                                                    <img alt="Gaming PC NEO 16" title="Gaming PC NEO 16" src="https://neocomputer.md/image/cache/webp/data/Componente%20PC/Cases/Case/Be%20Quiet/Be_Quiet_Pure_Base_500FX_Black-600x600.webp" class="image-fluid">
                                                 </div>
                                                 <div class="description">
                                                     <div class="rating">
@@ -8758,7 +8710,7 @@ ready(function() { // DOM loaded
 
                                             <div class="product-content">
                                                 <div class="product-image">
-                                                    <img alt="Gaming PC NEO 28" title="Gaming PC NEO 28" src="https://neocomputer.md/image/cache/webp/data/Componente%20PC/Cases/Case/Be%20Quiet/Be%20Quiet%20Pure%20Base%20600,%20Window,%20Black-600x600.webp" class="image-fluid">
+                                                    <img alt="Gaming PC NEO 28" title="Gaming PC NEO 28" src="https://neocomputer.md/image/cache/data/Componente%20PC/Cases/Case/Be%20Quiet/Be%20Quiet%20Pure%20Base%20600,%20Window,%20Black-600x600.jpg" class="image-fluid">
                                                 </div>
                                                 <div class="description">
                                                     <div class="rating">
@@ -8856,7 +8808,7 @@ ready(function() { // DOM loaded
 
                                             <div class="product-content">
                                                 <div class="product-image">
-                                                    <img alt="Gaming PC NEO 29" title="Gaming PC NEO 29" src="https://neocomputer.md/image/cache/data/Componente%20PC/Cases/Case/Deepcool/Deepcool%20CG540,%20Black_1-600x600.jpg" class="image-fluid">
+                                                    <img alt="Gaming PC NEO 29" title="Gaming PC NEO 29" src="https://neocomputer.md/image/cache/webp/data/Componente%20PC/Cases/Case/Deepcool/Deepcool%20CG540,%20Black_1-600x600.webp" class="image-fluid">
                                                 </div>
                                                 <div class="description">
                                                     <div class="rating">
@@ -9046,7 +8998,7 @@ ready(function() { // DOM loaded
             </div>
 
             <div class="row">
-            <div class="pagination col"><ul class="pagination"><li class="page active"><span>1</span></li><li class="page"><a href="https://neocomputer.md/gaming-zone?page=2">2</a></li><li class="page"><a href="https://neocomputer.md/gaming-zone?page=3">3</a></li><li><span class="dots">...</span></li><li class="page"><a href="https://neocomputer.md/gaming-zone?page=41">41</a></li><li class="page-nav next"><a href="https://neocomputer.md/gaming-zone?page=2"><svg class='icon icon-page-nav'><use xlink:href='/catalog/view/images/icons/sprite.svg#nav-arrow'></use></svg></a></li></ul></div>
+            <div class="pagination col"><ul class="pagination"><li class="page active"><span>1</span></li><li class="page"><a href="https://neocomputer.md/gaming-zone?page=2">2</a></li><li class="page"><a href="https://neocomputer.md/gaming-zone?page=3">3</a></li><li><span class="dots">...</span></li><li class="page"><a href="https://neocomputer.md/gaming-zone?page=38">38</a></li><li class="page-nav next"><a href="https://neocomputer.md/gaming-zone?page=2"><svg class='icon icon-page-nav'><use xlink:href='/catalog/view/images/icons/sprite.svg#nav-arrow'></use></svg></a></li></ul></div>
         </div>
 
                     
@@ -9071,7 +9023,7 @@ ready(function() { // DOM loaded
                                             <div class="icon icon-arrow_menu"></div>
                                         </div>
                                         <div class="faq_item_ans">
-                                            <p>Descoperă top 4 Gaming la ofertele zilei și găsește alegerea ideală!<br><ul><li><a href="https://neocomputer.md/monitor-aoc-27g4xe-black">Monitor AOC 27G4XE, Black</a></li><li><a href="https://neocomputer.md/monitor-aoc-cq32g4ve-curved-black">Monitor AOC CQ32G4VE, Curved, Black</a></li><li><a href="https://neocomputer.md/monitor-aoc-u27g3xbk-black">Monitor AOC U27G3X/BK, Black</a></li><li><a href="https://neocomputer.md/monitor-aoc-q27g3xmnbk-black">Monitor AOC Q27G3XMN/BK, Black</a></li></ul><br></p>
+                                            <p>Descoperă top 4 Gaming la ofertele zilei și găsește alegerea ideală!<br><ul><li><a href="https://neocomputer.md/mouse-trust-gxt-929-helox-black-197415">Mouse Trust GXT 929 HELOX, Black</a></li><li><a href="https://neocomputer.md/mouse-lenovo-m410-197403">Mouse Lenovo M410</a></li><li><a href="https://neocomputer.md/mouse-logitech-g309-white-197401">Mouse Logitech G309, White</a></li><li><a href="https://neocomputer.md/monitor-aoc-27g4xe-black">Monitor AOC 27G4XE, Black</a></li></ul><br></p>
                                         </div>
                                     </div>
                                                                     <div class="faq_item ">
@@ -9089,7 +9041,7 @@ ready(function() { // DOM loaded
                                             <div class="icon icon-arrow_menu"></div>
                                         </div>
                                         <div class="faq_item_ans">
-                                            <p>Profită acum de top 4 cu cashback garantat și bucură-te de mai mult cu mai puțin!2232</p><p><span class="small" style="font-size: 11.96px;"><ul><li><a href="https://neocomputer.md/aoc-gk500-red-rgb-black">Keyboard AOC GK500-RED RGB, Black</a></li><li><a href="https://neocomputer.md/aoc-gk200-rgb-black">Keyboard AOC GK200 RGB, Black</a></li><li><a href="https://neocomputer.md/qumo-pretender-black">Mouse Qumo Pretender, Black</a></li><li><a href="https://neocomputer.md/qumo-splash-black">Mouse Qumo Splash, Black</a></li></ul></span></p>
+                                            <p>Profită acum de top 4 cu cashback garantat și bucură-te de mai mult cu mai puțin!2232</p><p><span class="small" style="font-size: 11.96px;"><ul><li><a href="https://neocomputer.md/aoc-gk500-red-rgb-black">Keyboard AOC GK500-RED RGB, Black</a></li><li><a href="https://neocomputer.md/aoc-gk200-rgb-black">Keyboard AOC GK200 RGB, Black</a></li><li><a href="https://neocomputer.md/qumo-splash-black">Mouse Qumo Splash, Black</a></li><li><a href="https://neocomputer.md/qumo-protector">Casti Qumo Protector</a></li></ul></span></p>
                                         </div>
                                     </div>
                                                             </div>
