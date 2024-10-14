@@ -72,8 +72,6 @@ for product in soup.find_all(class_='col-lg-4 col-6'):
 mdl_to_eur_rate = 0.05
 
 for product in products:
-    print(
-        f"Product Name: {product['name']}, Price (MDL): {product['price_mdl']}, Link: {product['link']}, Description: {product['description']}")
     product['price_eur'] = round(product['price_mdl'] * mdl_to_eur_rate, 2)
 
 # Filter: Define a price range (in EUR)
@@ -91,8 +89,50 @@ result_summary = {
     'filtered_products': filtered_products,
 }
 
-# Print result summary
-print(f"Total Price (EUR): {result_summary['total_price_eur']}")
-print("Filtered Products:")
-for product in result_summary['filtered_products']:
-    print(f"Product Name: {product['name']}, Price (EUR): {product['price_eur']}, Link: {product['link']}")
+
+# Serialization Logic for JSON
+def serialize_to_json(data):
+    json_string = "{"
+    items = []
+
+    for product in data:
+        item = f'"name": "{product["name"]}", "price_mdl": {product["price_mdl"]}, "price_eur": {product["price_eur"]}, "link": "{product["link"]}", "description": "{product["description"]}"'
+        items.append(f'{{{item}}}')
+
+    json_string += '"products": [' + ', '.join(items) + ']}'
+    return json_string
+
+
+# Serialization Logic for XML
+def serialize_to_xml(data):
+    xml_string = "<products>"
+
+    for product in data:
+        xml_string += f"""
+        <product>
+            <name>{product['name']}</name>
+            <price_mdl>{product['price_mdl']}</price_mdl>
+            <price_eur>{product['price_eur']}</price_eur>
+            <link>{product['link']}</link>
+            <description>{product['description']}</description>
+        </product>"""
+
+    xml_string += "</products>"
+    return xml_string
+
+
+# Print serialized outputs
+json_output = serialize_to_json(result_summary['filtered_products'])
+xml_output = serialize_to_xml(result_summary['filtered_products'])
+
+# Save JSON output to a file
+with open("serialization_json.txt", "w", encoding="utf-8") as json_file:
+    json_file.write(json_output)
+
+print("Serialized JSON saved to serialization_json.txt")
+
+# Save XML output to a file
+with open("serialization_xml.txt", "w", encoding="utf-8") as xml_file:
+    xml_file.write(xml_output)
+
+print("Serialized XML saved to serialization_xml.txt")
