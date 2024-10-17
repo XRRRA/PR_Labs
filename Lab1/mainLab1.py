@@ -4,22 +4,17 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 from functools import reduce
 
-# Define the URL and port for HTTPS
 url = "neocomputer.md"
 port = 443
 
-# Create an SSL context
 context = ssl.create_default_context()
 
-# Create a TCP socket and wrap it in SSL
 sock = socket.create_connection((url, port))
 wrapped_socket = context.wrap_socket(sock, server_hostname=url)
 
-# Prepare and send the HTTP GET request
 http_request = f"GET /gaming-zone HTTP/1.1\r\nHost: {url}\r\nConnection: close\r\n\r\n"
 wrapped_socket.sendall(http_request.encode())
 
-# Receive the response
 response = b""
 while True:
     part = wrapped_socket.recv(4096)
@@ -27,17 +22,13 @@ while True:
         break
     response += part
 
-# Close the socket connection
 wrapped_socket.close()
 
-# Decode the response and split headers from body
 response_str = response.decode()
 headers, html_content = response_str.split("\r\n\r\n", 1)
 
-# Use Beautiful Soup to parse the HTML content
 soup = BeautifulSoup(html_content, 'html.parser')
 
-# Extract product names, prices, and links
 products = []
 
 for product in soup.find_all(class_='col-lg-4 col-6'):
@@ -47,11 +38,9 @@ for product in soup.find_all(class_='col-lg-4 col-6'):
     description_tag = product.find(class_='excerpt')
 
     if name_tag and price_tag and link_tag:
-        # Remove whitespaces from name and description
         name = name_tag.get_text(strip=True)
         description = description_tag.get_text(strip=True) if description_tag else "No description available"
 
-        # Extract and validate price
         price_str = price_tag.get_text(strip=True).replace('lei', '').replace(' ', '')
 
         try:
@@ -74,13 +63,11 @@ mdl_to_eur_rate = 0.05
 for product in products:
     product['price_eur'] = round(product['price_mdl'] * mdl_to_eur_rate, 2)
 
-# Filter: Define a price range (in EUR)
 min_price_eur = 500.0
 max_price_eur = 3000.0
 
 filtered_products = list(filter(lambda p: min_price_eur <= p.get('price_eur', 0) <= max_price_eur, products))
 
-# Reduce: Sum up the prices of filtered products (in EUR)
 total_price_eur = reduce(lambda acc, p: acc + p['price_eur'], filtered_products, 0)
 
 result_summary = {
@@ -90,20 +77,30 @@ result_summary = {
 }
 
 
-# Serialization Logic for JSON
 def serialize_to_json(data):
-    json_string = "{"
+    json_string = "{\n"
+    json_string += '  "products": [\n'
+
     items = []
-
     for product in data:
-        item = f'"name": "{product["name"]}", "price_mdl": {product["price_mdl"]}, "price_eur": {product["price_eur"]}, "link": "{product["link"]}", "description": "{product["description"]}"'
-        items.append(f'{{{item}}}')
+        item = (
+            f'    {{\n'
+            f'      "name": "{product["name"]}",\n'
+            f'      "price_mdl": {product["price_mdl"]},\n'
+            f'      "price_eur": {product["price_eur"]},\n'
+            f'      "link": "{product["link"]}",\n'
+            f'      "description": "{product["description"]}"\n'
+            f'    }}'
+        )
+        items.append(item)
 
-    json_string += '"products": [' + ', '.join(items) + ']}'
+    json_string += ',\n'.join(items)
+    json_string += '\n  ]\n'
+    json_string += '}'
+
     return json_string
 
 
-# Serialization Logic for XML
 def serialize_to_xml(data):
     xml_string = "<products>"
 
@@ -121,64 +118,100 @@ def serialize_to_xml(data):
     return xml_string
 
 
-# Print serialized outputs
 json_output = serialize_to_json(result_summary['filtered_products'])
 xml_output = serialize_to_xml(result_summary['filtered_products'])
 
-# Save JSON output to a file
-with open("serialization_json.txt", "w", encoding="utf-8") as json_file:
+with open("serialization_json.json", "w", encoding="utf-8") as json_file:
     json_file.write(json_output)
 
 print("Serialized JSON saved to serialization_json.txt")
 
-# Save XML output to a file
-with open("serialization_xml.txt", "w", encoding="utf-8") as xml_file:
+with open("serialization_xml.xml", "w", encoding="utf-8") as xml_file:
     xml_file.write(xml_output)
 
 print("Serialized XML saved to serialization_xml.txt")
 
 
-# Custom Serialization Function
-# noinspection PyShadowingNames
-def custom_serialize(data):
-    serialized_data = ""
-
-    for product in data:
-        serialized_data += f"{product['name']}    |    {product['price_mdl']}    |    {product['price_eur']}    |    {product['link']}    |    {product['description']}\n"
-
-    return serialized_data.encode('utf-8')  # Convert to bytes
-
-
-# Custom Deserialization Function
-# noinspection PyShadowingNames
-def custom_deserialize(serialized_data):
-    products = []
-    lines = serialized_data.decode('utf-8').strip().split('\n')
-
-    for line in lines:
-        name, price_mdl, price_eur, link, description = line.split('    |    ')
-        products.append({
-            'name': name,
-            'price_mdl': int(price_mdl),
-            'price_eur': float(price_eur),
-            'link': link,
-            'description': description
-        })
-
-    return products
+def generic_serialize(data, indent_level=0):
+    indent_space = '  ' * indent_level
+    if isinstance(data, dict):
+        items = [f'\n{indent_space}D: k: str({key}): v: {generic_serialize(value, indent_level + 1)}' for key, value in data.items()]
+        return f'D:[{",".join(items)}\n{indent_space}]'
+    elif isinstance(data, list):
+        items = [generic_serialize(item, indent_level) for item in data]
+        return f'L:[{",".join(items)}]'
+    elif isinstance(data, str):
+        return f'str("{data.replace(",", "/")}")'
+    elif isinstance(data, int):
+        return f'int({data})'
+    elif isinstance(data, float):
+        return f'float({data})'
+    else:
+        return 'unknown_type'
 
 
-# Serialize filtered products using custom method
-serialized_data = custom_serialize(filtered_products)
+def generic_deserialize(serialized_data):
+    serialized_data = serialized_data.strip()
 
-# Save serialized data to a file
+    if serialized_data.startswith('D:'):
+        content = serialized_data[2:-1]
+        items = []
+
+        in_string = False
+        current_item = []
+
+        for char in content:
+            if char == '"' and (not current_item or current_item[-1] != '\\'):
+                in_string = not in_string
+            if char == ',' and not in_string:
+                items.append(''.join(current_item).strip())
+                current_item = []
+            else:
+                current_item.append(char)
+
+        if current_item:
+            items.append(''.join(current_item).strip())
+
+        result = {}
+        for item in items:
+            key_value = item.split(': v:')
+            if len(key_value) != 2:
+                print(f"Skipping malformed entry: {item}")
+                continue
+
+            key = key_value[0].split('str(')[1][:-1].replace('\\"', '"')
+            value = generic_deserialize(key_value[1].strip())
+            result[key] = value
+        return result
+
+    elif serialized_data.startswith('L:'):
+        content = serialized_data[2:-1]
+        items = content.split(',')
+        return [generic_deserialize(item.strip()) for item in items]
+
+    elif serialized_data.startswith('str("'):
+        return serialized_data[5:].replace('/,',
+                                             ',')
+
+    elif serialized_data.startswith('int('):
+        return int(serialized_data[4:])
+
+    elif serialized_data.startswith('float('):
+        return float(serialized_data[6:-1])
+
+    else:
+        print(f"Unknown type encountered: {serialized_data}")
+        return None
+
+
+serialized_data = generic_serialize(filtered_products)
+
 with open("serialized_data.txt", "wb") as file:
-    file.write(serialized_data)
+    file.write(serialized_data.encode('utf-8'))
 
 print("Serialized data saved to serialized_data.txt")
 
-# Deserialize the data back to original structure for verification
-deserialized_products = custom_deserialize(serialized_data)
+deserialized_products = generic_deserialize(serialized_data)
 
 print("\nDeserialized Products:")
 for product in deserialized_products:

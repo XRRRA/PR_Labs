@@ -1,22 +1,135 @@
-Desktop PC Dell Alienware Aurora R16, 214976    |    46764    |    2338.2    |    https://neocomputer.md/desktop-pc-dell-alienware-aurora-r16-214976    |    i7-14700F, RAM 16GB, SSD 1TB, GeForce RTX 4070, Win11Home
-Gaming PC NEO 1    |    12799    |    639.95    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-1    |    Ryzen 5 5500, RAM 16GB, SSD 500GB, GeForce GTX 1650
-Gaming PC NEO 10    |    20999    |    1049.95    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-10    |    Ryzen 7 5800X, RAM 16GB, SSD 500GB, GeForce RTX 4060
-Gaming PC NEO 11    |    26433    |    1321.65    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-11    |    i5-13400F, RAM 16GB, SSD 1TB, GeForce RTX 4060
-Gaming PC NEO 12    |    15962    |    798.1    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-12    |    Ryzen 5 5600, RAM 16GB, SSD 500GB, GeForce RTX 3060
-Gaming PC NEO 13    |    40899    |    2044.95    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-13    |    i7-14700KF, RAM 32GB, SSD 1TB, GeForce RTX 4060 Ti
-Gaming PC NEO 14    |    21896    |    1094.8    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-14    |    Ryzen 5 7600, RAM 16GB, SSD 500GB, GeForce RTX 4060
-Gaming PC NEO 15    |    36499    |    1824.95    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-15    |    Ryzen 7 7700X, RAM 16GB, SSD 500GB, GeForce RTX 4070
-Gaming PC NEO 16    |    49999    |    2499.95    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-16    |    i7-14700KF, RAM 32GB, SSD 2TB, GeForce RTX 4070 Ti Super
-Gaming PC NEO 17    |    14299    |    714.95    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-17    |    i5-12400F, RAM 16GB, HDD 1TB, SSD 250 GB, GeForce GTX 1650
-Gaming PC NEO 18    |    15546    |    777.3    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-18    |    Ryzen 5 5600, RAM 16GB, SSD 500GB, GeForce RTX 3050
-Gaming PC NEO 19    |    10199    |    509.95    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-19    |    Ryzen 5 8500G, RAM 16GB, SSD 500GB
-Gaming PC NEO 2    |    11799    |    589.95    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-2    |    Ryzen 5 4500, RAM 16GB, SSD 500GB, GeForce GTX 1650
-Gaming PC NEO 20    |    14215    |    710.75    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-20    |    i5-11400F, RAM 16GB, SSD 1TB, GeForce GTX 1650
-Gaming PC NEO 21    |    10599    |    529.95    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-21    |    Ryzen 7 5700G, RAM 16GB, SSD 500GB, AMD Radeon Graphics
-Gaming PC NEO 22    |    25574    |    1278.7    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-22    |    i7-12700K, RAM 16GB, SSD 500GB, GeForce RTX 4060
-Gaming PC NEO 23    |    16381    |    819.05    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-23    |    Ryzen 7 8700G, RAM 16GB, SSD 1TB
-Gaming PC NEO 24    |    17299    |    864.95    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-24    |    i5-12400F, RAM 32GB, SSD 1TB, GeForce RTX 3050
-Gaming PC NEO 25    |    18723    |    936.15    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-25    |    i3-13100F, RAM 16GB, SSD 1TB, GeForce RTX 3060
-Gaming PC NEO 26    |    39799    |    1989.95    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-26    |    i5-14600K, RAM 16GB, SSD 500GB, GeForce RTX 4070
-Gaming PC NEO 29    |    44899    |    2244.95    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-29    |    i5-14600K, RAM 16GB, SSD 1TB, GeForce RTX 4070 Ti Super
-Gaming PC NEO 3    |    12999    |    649.95    |    https://neocomputer.md/gaming-bloc-de-sistem-neo-3    |    i5-12400, RAM 16GB, SSD 500GB, GeForce GTX 1650
+L:[D:[
+D: k: str(name): v: str("Desktop PC Dell Alienware Aurora R16/ 214976"),
+D: k: str(price_mdl): v: int(46764),
+D: k: str(link): v: str("https://neocomputer.md/desktop-pc-dell-alienware-aurora-r16-214976"),
+D: k: str(description): v: str("i7-14700F/ RAM 16GB/ SSD 1TB/ GeForce RTX 4070/ Win11Home"),
+D: k: str(price_eur): v: float(2338.2)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 1"),
+D: k: str(price_mdl): v: int(12799),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-1"),
+D: k: str(description): v: str("Ryzen 5 5500/ RAM 16GB/ SSD 500GB/ GeForce GTX 1650"),
+D: k: str(price_eur): v: float(639.95)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 10"),
+D: k: str(price_mdl): v: int(20999),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-10"),
+D: k: str(description): v: str("Ryzen 7 5800X/ RAM 16GB/ SSD 500GB/ GeForce RTX 4060"),
+D: k: str(price_eur): v: float(1049.95)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 11"),
+D: k: str(price_mdl): v: int(26433),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-11"),
+D: k: str(description): v: str("i5-13400/ RAM 32GB/ SSD 1TB/ GeForce RTX 4060"),
+D: k: str(price_eur): v: float(1321.65)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 12"),
+D: k: str(price_mdl): v: int(15962),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-12"),
+D: k: str(description): v: str("Ryzen 7 5800X/ RAM 16GB/ SSD 500GB/ GeForce RTX 4060 Ti"),
+D: k: str(price_eur): v: float(798.1)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 13"),
+D: k: str(price_mdl): v: int(40899),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-13"),
+D: k: str(description): v: str("i7-14700KF/ RAM 32GB/ SSD 1TB/ GeForce RTX 4070 Ti Super"),
+D: k: str(price_eur): v: float(2044.95)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 14"),
+D: k: str(price_mdl): v: int(21896),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-14"),
+D: k: str(description): v: str("Ryzen 7 7700/ RAM 16GB/ SSD 1TB/ GeForce RTX 4060"),
+D: k: str(price_eur): v: float(1094.8)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 15"),
+D: k: str(price_mdl): v: int(36499),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-15"),
+D: k: str(description): v: str("Ryzen 7 7700X/ RAM 16GB/ SSD 500GB/ GeForce RTX 4070"),
+D: k: str(price_eur): v: float(1824.95)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 16"),
+D: k: str(price_mdl): v: int(49999),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-16"),
+D: k: str(description): v: str("i9-12900F/ RAM 32GB/ SSD 2TB/ GeForce RTX 4070 Ti Super"),
+D: k: str(price_eur): v: float(2499.95)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 17"),
+D: k: str(price_mdl): v: int(14299),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-17"),
+D: k: str(description): v: str("i5-12400F/ RAM 16GB/ HDD 1TB/ SSD 250 GB/ GeForce GTX 1650"),
+D: k: str(price_eur): v: float(714.95)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 18"),
+D: k: str(price_mdl): v: int(15546),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-18"),
+D: k: str(description): v: str("Ryzen 5 5600/ RAM 16GB/ SSD 500GB/ GeForce RTX 3050"),
+D: k: str(price_eur): v: float(777.3)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 19"),
+D: k: str(price_mdl): v: int(10199),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-19"),
+D: k: str(description): v: str("Ryzen 5 8500G/ RAM 16GB/ SSD 500GB"),
+D: k: str(price_eur): v: float(509.95)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 2"),
+D: k: str(price_mdl): v: int(11799),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-2"),
+D: k: str(description): v: str("Ryzen 5 4500/ RAM 16GB/ SSD 500GB/ GeForce GTX 1650"),
+D: k: str(price_eur): v: float(589.95)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 20"),
+D: k: str(price_mdl): v: int(14215),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-20"),
+D: k: str(description): v: str("i5-11400F/ RAM 16GB/ SSD 1TB/ GeForce GTX 1650"),
+D: k: str(price_eur): v: float(710.75)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 21"),
+D: k: str(price_mdl): v: int(10599),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-21"),
+D: k: str(description): v: str("Ryzen 7 5700G/ RAM 16GB/ SSD 500GB/ AMD Radeon Graphics"),
+D: k: str(price_eur): v: float(529.95)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 22"),
+D: k: str(price_mdl): v: int(25574),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-22"),
+D: k: str(description): v: str("i7-12700K/ RAM 16GB/ SSD 500GB/ GeForce RTX 4060"),
+D: k: str(price_eur): v: float(1278.7)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 23"),
+D: k: str(price_mdl): v: int(16381),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-23"),
+D: k: str(description): v: str("Ryzen 7 8700G/ RAM 16GB/ SSD 1TB"),
+D: k: str(price_eur): v: float(819.05)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 24"),
+D: k: str(price_mdl): v: int(17299),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-24"),
+D: k: str(description): v: str("i5-12400F/ RAM 32GB/ SSD 1TB/ GeForce RTX 3050"),
+D: k: str(price_eur): v: float(864.95)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 25"),
+D: k: str(price_mdl): v: int(18723),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-25"),
+D: k: str(description): v: str("i3-13100F/ RAM 16GB/ SSD 1TB/ GeForce RTX 3060"),
+D: k: str(price_eur): v: float(936.15)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 26"),
+D: k: str(price_mdl): v: int(39799),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-26"),
+D: k: str(description): v: str("i5-14600K/ RAM 16GB/
+eee3
+ SSD 500GB/ GeForce RTX 4070"),
+D: k: str(price_eur): v: float(1989.95)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 29"),
+D: k: str(price_mdl): v: int(44899),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-29"),
+D: k: str(description): v: str("i5-14600K/ RAM 16GB/ SSD 1TB/ GeForce RTX 4070 Ti Super"),
+D: k: str(price_eur): v: float(2244.95)
+],D:[
+D: k: str(name): v: str("Gaming PC NEO 3"),
+D: k: str(price_mdl): v: int(12999),
+D: k: str(link): v: str("https://neocomputer.md/gaming-bloc-de-sistem-neo-3"),
+D: k: str(description): v: str("i5-12400/ RAM 16GB/ SSD 500GB/ GeForce GTX 1650"),
+D: k: str(price_eur): v: float(649.95)
+]]
