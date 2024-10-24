@@ -12,7 +12,7 @@ context = ssl.create_default_context()
 sock = socket.create_connection((url, port))
 wrapped_socket = context.wrap_socket(sock, server_hostname=url)
 
-http_request = f"GET /gaming-zone HTTP/1.1\r\nHost: {url}\r\nConnection: close\r\n\r\n"
+http_request = f"GET / HTTP/1.1\r\nHost: {url}\r\nConnection: close\r\n\r\n"
 wrapped_socket.sendall(http_request.encode())
 
 response = b""
@@ -29,6 +29,32 @@ headers, html_content = response_str.split("\r\n\r\n", 1)
 
 soup = BeautifulSoup(html_content, 'html.parser')
 
+gaming_zone_link_tag = soup.find('a', href="gaming-zone", class_='btn-menu dropbtn label')
+
+if gaming_zone_link_tag:
+    gaming_zone_path = gaming_zone_link_tag['href']  # Get the href value
+    gaming_zone_url = f"/{gaming_zone_path.lstrip('/')}"
+
+    sock = socket.create_connection((url, port))
+    wrapped_socket = context.wrap_socket(sock, server_hostname=url)
+
+    http_request = f"GET {gaming_zone_url} HTTP/1.1\r\nHost: {url}\r\nConnection: close\r\n\r\n"
+    wrapped_socket.sendall(http_request.encode())
+
+    response = b""
+    while True:
+        part = wrapped_socket.recv(4096)
+        if not part:
+            break
+        response += part
+
+    wrapped_socket.close()
+
+    response_str = response.decode()
+    headers, html_content = response_str.split("\r\n\r\n", 1)
+
+    soup = BeautifulSoup(html_content, 'html.parser')
+
 products = []
 
 for product in soup.find_all(class_='col-lg-4 col-6'):
@@ -38,13 +64,13 @@ for product in soup.find_all(class_='col-lg-4 col-6'):
     description_tag = product.find(class_='excerpt')
 
     if name_tag and price_tag and link_tag:
-        name = name_tag.get_text(strip=True)
+        name = name_tag.get_text(strip=True)  # Validation1 remove whitespace from the product name
         description = description_tag.get_text(strip=True) if description_tag else "No description available"
 
         price_str = price_tag.get_text(strip=True).replace('lei', '').replace(' ', '')
 
         try:
-            price_mdl = int(price_str)
+            price_mdl = int(price_str)  # Validation 2 converts to integer; raises ValueError if not valid
         except ValueError:
             print(f"Invalid price format for {name}. Skipping this product.")
             continue
@@ -135,7 +161,8 @@ print("Serialized XML saved to serialization_xml.txt")
 def generic_serialize(data, indent_level=0):
     indent_space = '  ' * indent_level
     if isinstance(data, dict):
-        items = [f'\n{indent_space}D: k: str({key}): v: {generic_serialize(value, indent_level + 1)}' for key, value in data.items()]
+        items = [f'\n{indent_space}D: k: str({key}): v: {generic_serialize(value, indent_level + 1)}' for key, value in
+                 data.items()]
         return f'D:[{",".join(items)}\n{indent_space}]'
     elif isinstance(data, list):
         items = [generic_serialize(item, indent_level) for item in data]
@@ -191,7 +218,7 @@ def generic_deserialize(serialized_data):
 
     elif serialized_data.startswith('str("'):
         return serialized_data[5:].replace('/,',
-                                             ',')
+                                           ',')
 
     elif serialized_data.startswith('int('):
         return int(serialized_data[4:])

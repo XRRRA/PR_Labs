@@ -8,43 +8,43 @@
         </product>
         <product>
             <name>Gaming PC NEO 1</name>
-            <price_mdl>12799</price_mdl>
-            <price_eur>639.95</price_eur>
+            <price_mdl>12299</price_mdl>
+            <price_eur>614.95</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-1</link>
             <description>Ryzen 5 5500, RAM 16GB, SSD 500GB, GeForce GTX 1650</description>
         </product>
         <product>
             <name>Gaming PC NEO 10</name>
-            <price_mdl>20999</price_mdl>
-            <price_eur>1049.95</price_eur>
+            <price_mdl>22800</price_mdl>
+            <price_eur>1140.0</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-10</link>
             <description>Ryzen 7 5800X, RAM 16GB, SSD 500GB, GeForce RTX 4060</description>
         </product>
         <product>
             <name>Gaming PC NEO 11</name>
-            <price_mdl>26433</price_mdl>
-            <price_eur>1321.65</price_eur>
+            <price_mdl>22599</price_mdl>
+            <price_eur>1129.95</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-11</link>
             <description>i5-13400, RAM 32GB, SSD 1TB, GeForce RTX 4060</description>
         </product>
         <product>
             <name>Gaming PC NEO 12</name>
-            <price_mdl>15962</price_mdl>
-            <price_eur>798.1</price_eur>
+            <price_mdl>27499</price_mdl>
+            <price_eur>1374.95</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-12</link>
             <description>Ryzen 7 5800X, RAM 16GB, SSD 500GB, GeForce RTX 4060 Ti</description>
         </product>
         <product>
             <name>Gaming PC NEO 13</name>
-            <price_mdl>40899</price_mdl>
-            <price_eur>2044.95</price_eur>
+            <price_mdl>51399</price_mdl>
+            <price_eur>2569.95</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-13</link>
             <description>i7-14700KF, RAM 32GB, SSD 1TB, GeForce RTX 4070 Ti Super</description>
         </product>
         <product>
             <name>Gaming PC NEO 14</name>
-            <price_mdl>21896</price_mdl>
-            <price_eur>1094.8</price_eur>
+            <price_mdl>22999</price_mdl>
+            <price_eur>1149.95</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-14</link>
             <description>Ryzen 7 7700, RAM 16GB, SSD 1TB, GeForce RTX 4060</description>
         </product>
@@ -57,101 +57,99 @@
         </product>
         <product>
             <name>Gaming PC NEO 16</name>
-            <price_mdl>49999</price_mdl>
-            <price_eur>2499.95</price_eur>
+            <price_mdl>44199</price_mdl>
+            <price_eur>2209.95</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-16</link>
             <description>i9-12900F, RAM 32GB, SSD 2TB, GeForce RTX 4070 Ti Super</description>
         </product>
         <product>
             <name>Gaming PC NEO 17</name>
-            <price_mdl>14299</price_mdl>
-            <price_eur>714.95</price_eur>
+            <price_mdl>14999</price_mdl>
+            <price_eur>749.95</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-17</link>
-            <description>i5-12400F, RAM 16GB, HDD 1TB, SSD 250 GB, GeForce GTX 1650</description>
+            <description>i5-12400, RAM 16GB, HDD 1TB, SSD 250GB, GeForce GTX 1650</description>
         </product>
         <product>
             <name>Gaming PC NEO 18</name>
-            <price_mdl>15546</price_mdl>
-            <price_eur>777.3</price_eur>
+            <price_mdl>13999</price_mdl>
+            <price_eur>699.95</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-18</link>
-            <description>Ryzen 5 5600, RAM 16GB, SSD 500GB, GeForce RTX 3050</description>
-        </product>
-        <product>
-            <name>Gaming PC NEO 19</name>
-            <price_mdl>10199</price_mdl>
-            <price_eur>509.95</price_eur>
-            <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-19</link>
-            <description>Ryzen 5 8500G, RAM 16GB, SSD 500GB</description>
+            <description>Ryzen 5 4500, RAM 16GB, SSD 1TB, GeForce RTX 3050</description>
         </product>
         <product>
             <name>Gaming PC NEO 2</name>
-            <price_mdl>11799</price_mdl>
-            <price_eur>589.95</price_eur>
+            <price_mdl>11499</price_mdl>
+            <price_eur>574.95</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-2</link>
             <description>Ryzen 5 4500, RAM 16GB, SSD 500GB, GeForce GTX 1650</description>
         </product>
         <product>
             <name>Gaming PC NEO 20</name>
-            <price_mdl>14215</price_mdl>
-            <price_eur>710.75</price_eur>
+            <price_mdl>12905</price_mdl>
+            <price_eur>645.25</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-20</link>
-            <description>i5-11400F, RAM 16GB, SSD 1TB, GeForce GTX 1650</description>
+            <description>i3-12100F, RAM 16GB, SSD 1TB, GeForce GTX 1660 Ti</description>
         </product>
         <product>
             <name>Gaming PC NEO 21</name>
-            <price_mdl>10599</price_mdl>
-            <price_eur>529.95</price_eur>
+            <price_mdl>18272</price_mdl>
+            <price_eur>913.6</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-21</link>
-            <description>Ryzen 7 5700G, RAM 16GB, SSD 500GB, AMD Radeon Graphics</description>
+            <description>Ryzen 7 8700G, RAM 32GB, SSD 1TB, AMD Radeon Graphics</description>
         </product>
         <product>
             <name>Gaming PC NEO 22</name>
-            <price_mdl>25574</price_mdl>
-            <price_eur>1278.7</price_eur>
+            <price_mdl>15606</price_mdl>
+            <price_eur>780.3</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-22</link>
-            <description>i7-12700K, RAM 16GB, SSD 500GB, GeForce RTX 4060</description>
+            <description>i5-12400F, RAM 16GB, SSD 1TB, GeForce RTX 3060</description>
         </product>
         <product>
             <name>Gaming PC NEO 23</name>
-            <price_mdl>16381</price_mdl>
-            <price_eur>819.05</price_eur>
+            <price_mdl>21527</price_mdl>
+            <price_eur>1076.35</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-23</link>
-            <description>Ryzen 7 8700G, RAM 16GB, SSD 1TB</description>
+            <description>Ryzen 7 8700G, RAM 32GB, SSD 1TB, AMD Radeon Graphics</description>
         </product>
         <product>
             <name>Gaming PC NEO 24</name>
-            <price_mdl>17299</price_mdl>
-            <price_eur>864.95</price_eur>
+            <price_mdl>22373</price_mdl>
+            <price_eur>1118.65</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-24</link>
-            <description>i5-12400F, RAM 32GB, SSD 1TB, GeForce RTX 3050</description>
+            <description>i5-13400F, RAM 32GB, SSD 1TB, GeForce RTX 3060</description>
         </product>
         <product>
             <name>Gaming PC NEO 25</name>
-            <price_mdl>18723</price_mdl>
-            <price_eur>936.15</price_eur>
+            <price_mdl>16770</price_mdl>
+            <price_eur>838.5</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-25</link>
-            <description>i3-13100F, RAM 16GB, SSD 1TB, GeForce RTX 3060</description>
+            <description>i3-14100F, RAM 16GB, SSD 1TB, GeForce RTX 3060</description>
         </product>
         <product>
             <name>Gaming PC NEO 26</name>
-            <price_mdl>39799</price_mdl>
-            <price_eur>1989.95</price_eur>
+            <price_mdl>33424</price_mdl>
+            <price_eur>1671.2</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-26</link>
-            <description>i5-14600K, RAM 16GB,
-eee3
- SSD 500GB, GeForce RTX 4070</description>
+            <description>i7-12700KF, RAM 32GB, SSD 1TB, GeForce RTX 4070 Super</description>
+        </product>
+        <product>
+            <name>Gaming PC NEO 28</name>
+            <price_mdl>59299</price_mdl>
+            <price_eur>2964.95</price_eur>
+            <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-28</link>
+            <description>i9-13900KF, RAM 64GB, SSD 1TB, GeForce RTX 4080 Super</description>
         </product>
         <product>
             <name>Gaming PC NEO 29</name>
-            <price_mdl>44899</price_mdl>
-            <price_eur>2244.95</price_eur>
+            <price_mdl>34722</price_mdl>
+            <price_eur>1736.1</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-29</link>
-            <description>i5-14600K, RAM 16GB, SSD 1TB, GeForce RTX 4070 Ti Super</description>
+            <description>i5-14400, RAM 32GB, SSD 1TB, GeForce RTX 4070 Super</description>
         </product>
         <product>
             <name>Gaming PC NEO 3</name>
-            <price_mdl>12999</price_mdl>
-            <price_eur>649.95</price_eur>
+            <price_mdl>13499</price_mdl>
+            <price_eur>674.95</price_eur>
             <link>https://neocomputer.md/gaming-bloc-de-sistem-neo-3</link>
             <description>i5-12400, RAM 16GB, SSD 500GB, GeForce GTX 1650</description>
         </product></products>
