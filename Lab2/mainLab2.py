@@ -24,14 +24,22 @@ def insert_product(product):
     conn.commit()
 
 
-# Function to retrieve products with optional filters
-def get_products(filters=None):
+# Function to retrieve products with optional filters, has task 4: pagination
+def get_products(filters=None, offset=0, limit=5):
     with conn.cursor() as cur:
+        query = "SELECT * FROM products"
+        params = []
+
+        # Add filters if provided
         if filters:
-            query = "SELECT * FROM products WHERE " + " AND ".join([f"{key} = %s" for key in filters.keys()])
-            cur.execute(query, list(filters.values()))
-        else:
-            cur.execute("SELECT * FROM products")
+            query += " WHERE " + " AND ".join([f"{key} = %s" for key in filters.keys()])
+            params.extend(filters.values())
+
+        # Add pagination
+        query += " OFFSET %s LIMIT %s"
+        params.extend([offset, limit])
+
+        cur.execute(query, params)
         return cur.fetchall()
 
 
@@ -62,18 +70,21 @@ def create_product():
     return jsonify({"message": "Product created successfully"}), 201
 
 
-# Route to read products with optional query parameters (GET)
+# Route to read products with optional query parameters (GET), has task 4: pagination
 @app.route('/products', methods=['GET'])
 def read_products():
     filters = {}
     product_id = request.args.get('id')
     name = request.args.get('name')
+    offset = int(request.args.get('offset', 0))
+    limit = int(request.args.get('limit', 5))
+
     if product_id:
         filters['id'] = int(product_id)
     if name:
         filters['name'] = name
 
-    products = get_products(filters)
+    products = get_products(filters, offset, limit)
     return jsonify(products), 200
 
 
@@ -90,6 +101,32 @@ def update_product_route(product_id):
 def delete_product_route(product_id):
     delete_product(product_id)
     return jsonify({"message": "Product deleted successfully"}), 204
+
+
+# Task 5: Route to accept multipart/form-data file uploads (POST)
+@app.route('/upload', methods=['POST'])
+def upload_file():
+    if 'file' not in request.files:
+        return jsonify({"error": "No file part in the request"}), 400
+
+    file = request.files['file']
+
+    # Ensure the file is a JSON file
+    if file.filename == '' or not file.filename.endswith('.json'):
+        return jsonify({"error": "Please upload a JSON file"}), 400
+
+    # Load and insert JSON data into the database
+    try:
+        data = json.load(file)
+        if 'products' not in data:
+            return jsonify({"error": "Invalid JSON format"}), 400
+
+        for product in data['products']:
+            insert_product(product)
+
+        return jsonify({"message": "File uploaded and data inserted successfully"}), 201
+    except json.JSONDecodeError:
+        return jsonify({"error": "Invalid JSON file"}), 400
 
 
 # Run the application

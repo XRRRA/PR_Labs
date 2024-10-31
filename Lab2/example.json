@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "name": "Laptop HP Pavilion 15",
+      "price_mdl": 18999,
+      "price_eur": 949.95,
+      "link": "https://neocomputer.md/laptop-hp-pavilion-15",
+      "description": "i5-1135G7, RAM 8GB, SSD 512GB, Intel Iris Xe, Win10Home"
+    },
+    {
+      "name": "Laptop Lenovo IdeaPad 3",
+      "price_mdl": 13499,
+      "price_eur": 674.95,
+      "link": "https://neocomputer.md/laptop-lenovo-ideapad-3",
+      "description": "Ryzen 5 3500U, RAM 8GB, SSD 256GB, Radeon Vega 8, Win10Home"
+    },
+    {
+      "name": "Laptop ASUS TUF Gaming F15",
+      "price_mdl": 29999,
+      "price_eur": 1499.95,
+      "link": "https://neocomputer.md/laptop-asus-tuf-gaming-f15",
+      "description": "i7-11800H, RAM 16GB, SSD 1TB, GeForce RTX 3060, Win11Home"
+    },
+    {
+      "name": "Laptop Dell XPS 13",
+      "price_mdl": 39999,
+      "price_eur": 1999.95,
+      "link": "https://neocomputer.md/laptop-dell-xps-13",
+      "description": "i7-1165G7, RAM 16GB, SSD 512GB, Intel Iris Xe, Win11Pro"
+    },
+    {
+      "name": "Laptop Acer Aspire 5",
+      "price_mdl": 15999,
+      "price_eur": 799.95,
+      "link": "https://neocomputer.md/laptop-acer-aspire-5",
+      "description": "i5-1035G1, RAM 8GB, SSD 512GB, Intel UHD, Win10Home"
+    },
+    {
+      "name": "Laptop MSI GF63 Thin",
+      "price_mdl": 24999,
+      "price_eur": 1249.95,
+      "link": "https://neocomputer.md/laptop-msi-gf63-thin",
+      "description": "i5-10500H, RAM 16GB, SSD 512GB, GeForce GTX 1650, Win10Home"
+    },
+    {
+      "name": "Laptop Apple MacBook Air M1",
+      "price_mdl": 34999,
+      "price_eur": 1749.95,
+      "link": "https://neocomputer.md/laptop-apple-macbook-air-m1",
+      "description": "Apple M1, RAM 8GB, SSD 256GB, macOS"
+    },
+    {
+      "name": "Laptop ASUS ZenBook 14",
+      "price_mdl": 27999,
+      "price_eur": 1399.95,
+      "link": "https://neocomputer.md/laptop-asus-zenbook-14",
+      "description": "Ryzen 7 5800U, RAM 16GB, SSD 1TB, Radeon Graphics, Win11Home"
+    },
+    {
+      "name": "Laptop HP Envy 13",
+      "price_mdl": 31999,
+      "price_eur": 1599.95,
+      "link": "https://neocomputer.md/laptop-hp-envy-13",
+      "description": "i7-1165G7, RAM 16GB, SSD 512GB, Intel Iris Xe, Win11Home"
+    },
+    {
+      "name": "Laptop Lenovo Legion 5",
+      "price_mdl": 37999,
+      "price_eur": 1899.95,
+      "link": "https://neocomputer.md/laptop-lenovo-legion-5",
+      "description": "Ryzen 7 5800H, RAM 16GB, SSD 1TB, GeForce RTX 3060, Win11Home"
+    }
+  ]
+}
