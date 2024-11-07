@@ -1,10 +1,13 @@
 import json
+import asyncio
+import threading
+
 from flask import Flask, request, jsonify
 import psycopg2
+from websockets import serve
 
 app = Flask(__name__)
 
-# PostgreSQL's connection settings
 conn = psycopg2.connect(
     dbname="prlab2_db",
     user="postgres",
@@ -13,8 +16,9 @@ conn = psycopg2.connect(
     port="5432"
 )
 
+rooms = {}
 
-# Function to insert a product
+
 def insert_product(product):
     with conn.cursor() as cur:
         cur.execute("""
@@ -24,18 +28,15 @@ def insert_product(product):
     conn.commit()
 
 
-# Function to retrieve products with optional filters, has task 4: pagination
 def get_products(filters=None, offset=0, limit=5):
     with conn.cursor() as cur:
         query = "SELECT * FROM products"
         params = []
 
-        # Add filters if provided
         if filters:
             query += " WHERE " + " AND ".join([f"{key} = %s" for key in filters.keys()])
             params.extend(filters.values())
 
-        # Add pagination
         query += " OFFSET %s LIMIT %s"
         params.extend([offset, limit])
 
@@ -43,7 +44,6 @@ def get_products(filters=None, offset=0, limit=5):
         return cur.fetchall()
 
 
-# Function to update a product by ID
 def update_product(product_id, product):
     with conn.cursor() as cur:
         cur.execute("""
@@ -55,14 +55,12 @@ def update_product(product_id, product):
     conn.commit()
 
 
-# Function to delete a product by ID
 def delete_product(product_id):
     with conn.cursor() as cur:
         cur.execute("DELETE FROM products WHERE id = %s", (product_id,))
     conn.commit()
 
 
-# Route to create a new product (POST)
 @app.route('/products', methods=['POST'])
 def create_product():
     product = request.json
@@ -70,7 +68,6 @@ def create_product():
     return jsonify({"message": "Product created successfully"}), 201
 
 
-# Route to read products with optional query parameters (GET), has task 4: pagination
 @app.route('/products', methods=['GET'])
 def read_products():
     filters = {}
@@ -88,7 +85,6 @@ def read_products():
     return jsonify(products), 200
 
 
-# Route to update a product by ID (PUT)
 @app.route('/products/<int:product_id>', methods=['PUT'])
 def update_product_route(product_id):
     product = request.json
@@ -96,14 +92,14 @@ def update_product_route(product_id):
     return jsonify({"message": "Product updated successfully"}), 200
 
 
-# Route to delete a product by ID (DELETE)
+# Flask route to delete a product by ID (DELETE)
 @app.route('/products/<int:product_id>', methods=['DELETE'])
 def delete_product_route(product_id):
     delete_product(product_id)
     return jsonify({"message": "Product deleted successfully"}), 204
 
 
-# Task 5: Route to accept multipart/form-data file uploads (POST)
+# Flask route to accept multipart/form-data file uploads (POST)
 @app.route('/upload', methods=['POST'])
 def upload_file():
     if 'file' not in request.files:
@@ -111,11 +107,9 @@ def upload_file():
 
     file = request.files['file']
 
-    # Ensure the file is a JSON file
     if file.filename == '' or not file.filename.endswith('.json'):
         return jsonify({"error": "Please upload a JSON file"}), 400
 
-    # Load and insert JSON data into the database
     try:
         data = json.load(file)
         if 'products' not in data:
@@ -129,6 +123,43 @@ def upload_file():
         return jsonify({"error": "Invalid JSON file"}), 400
 
 
-# Run the application
-if __name__ == '__main__':
-    app.run(debug=True)
+async def handle_client(websocket, path):
+    room_name = path.strip("/")
+    if room_name not in rooms:
+        rooms[room_name] = set()
+    rooms[room_name].add(websocket)
+
+    try:
+        async for message in websocket:
+            print(f"Received message: {message}")
+
+            for client in rooms[room_name]:
+                if client != websocket:
+                    await client.send(message)
+    except Exception as e:
+        print(f"Client disconnected from room {room_name}: {e}")
+    finally:
+        rooms[room_name].remove(websocket)
+        if len(rooms[room_name]) == 0:
+            del rooms[room_name]
+
+
+def run_flask_thread():
+    app.run(port=5000, debug=True, use_reloader=False)
+
+
+async def run_websocket():
+    async with serve(handle_client, "localhost", 8765):
+        print("WebSocket server started on ws://localhost:8765")
+        await asyncio.Future()
+
+
+async def main():
+    flask_thread = threading.Thread(target=run_flask_thread)
+    flask_thread.start()
+
+    await run_websocket()
+
+
+# Start both servers
+asyncio.run(main())
