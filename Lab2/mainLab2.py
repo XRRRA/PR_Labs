@@ -1,5 +1,6 @@
 import json
 import asyncio
+import os
 import threading
 
 from flask import Flask, request, jsonify
@@ -9,11 +10,11 @@ from websockets import serve
 app = Flask(__name__)
 
 conn = psycopg2.connect(
-    dbname="prlab2_db",
-    user="postgres",
-    password="liviuiordan03",
-    host="localhost",
-    port="5432"
+    dbname=os.getenv("DB_NAME"),
+    user=os.getenv("DB_USER"),
+    password=os.getenv("DB_PASSWORD"),
+    host=os.getenv("DB_HOST"),
+    port=os.getenv("DB_PORT")
 )
 
 rooms = {}

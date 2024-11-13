@@ -10,5 +10,22 @@ services:
     volumes:
       - data:/var/lib/postgresql/data
 
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: prlab2_db
+      DB_USER: postgres
+      DB_PASSWORD: liviuiordan03
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+
 volumes:
   data:
