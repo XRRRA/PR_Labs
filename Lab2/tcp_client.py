@@ -10,10 +10,4 @@ def send_command(command):
 
 
 if __name__ == "__main__":
-    # Test "write" command
-    print("Sending write command:")
-    send_command("write")
-
-    # Test "read" command
-    print("Sending read command:")
     send_command("read")

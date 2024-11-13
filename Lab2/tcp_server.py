@@ -12,6 +12,8 @@ if not os.path.exists(FILE_PATH):
         json.dump({"data": []}, f)
 
 file_lock = threading.Lock()
+read_write_condition = threading.Condition(file_lock)
+active_writes = 0
 
 
 def handle_client(client_socket):
@@ -34,9 +36,13 @@ def handle_client(client_socket):
 
 
 def handle_write(client_socket):
+    global active_writes
     time.sleep(random.randint(1, 7))
 
     data = {"timestamp": time.time(), "message": "Data written"}
+
+    with read_write_condition:
+        active_writes += 1
 
     with file_lock:
         with open(FILE_PATH, "r+") as f:
@@ -45,13 +51,22 @@ def handle_write(client_socket):
             f.seek(0)
             json.dump(file_data, f)
             f.truncate()
+    print("Data written to file.")
+
+    with read_write_condition:
+        active_writes -= 1
+        if active_writes == 0:
+            read_write_condition.notify_all()
 
     client_socket.send("Write operation completed.\n".encode('utf-8'))
-    print("Data written to file.")
 
 
 def handle_read(client_socket):
     time.sleep(random.randint(1, 7))
+
+    with read_write_condition:
+        while active_writes > 0:
+            read_write_condition.wait()
 
     with file_lock:
         with open(FILE_PATH, "r") as f:
